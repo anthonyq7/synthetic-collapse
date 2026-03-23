@@ -1,0 +1,12 @@
+{"node": 0, "n_runs": 50, "top_10pct_share_mean": 15.765, "top_10pct_share_ci_low": 15.5212, "top_10pct_share_ci_high": 16.0088}
+{"node": 1, "n_runs": 50, "top_10pct_share_mean": 18.8612, "top_10pct_share_ci_low": 18.5727, "top_10pct_share_ci_high": 19.1497}
+{"node": 2, "n_runs": 50, "top_10pct_share_mean": 20.5265, "top_10pct_share_ci_low": 20.1833, "top_10pct_share_ci_high": 20.8698}
+{"node": 3, "n_runs": 50, "top_10pct_share_mean": 22.9891, "top_10pct_share_ci_low": 22.6275, "top_10pct_share_ci_high": 23.3506}
+{"node": 4, "n_runs": 50, "top_10pct_share_mean": 24.9694, "top_10pct_share_ci_low": 24.6846, "top_10pct_share_ci_high": 25.2542}
+{"node": 5, "n_runs": 50, "top_10pct_share_mean": 26.482, "top_10pct_share_ci_low": 26.1604, "top_10pct_share_ci_high": 26.8037}
+{"node": 6, "n_runs": 50, "top_10pct_share_mean": 27.9904, "top_10pct_share_ci_low": 27.7906, "top_10pct_share_ci_high": 28.1903}
+{"node": 7, "n_runs": 50, "top_10pct_share_mean": 29.4774, "top_10pct_share_ci_low": 29.0414, "top_10pct_share_ci_high": 29.9134}
+{"node": 8, "n_runs": 50, "top_10pct_share_mean": 30.1492, "top_10pct_share_ci_low": 29.7041, "top_10pct_share_ci_high": 30.5943}
+{"node": 9, "n_runs": 50, "top_10pct_share_mean": 31.392, "top_10pct_share_ci_low": 31.0179, "top_10pct_share_ci_high": 31.7661}
+{"node": 10, "n_runs": 50, "top_10pct_share_mean": 32.4442, "top_10pct_share_ci_low": 32.0785, "top_10pct_share_ci_high": 32.8099}
+{"node": 11, "n_runs": 50, "top_10pct_share_mean": 33.1958, "top_10pct_share_ci_low": 32.8902, "top_10pct_share_ci_high": 33.5014}

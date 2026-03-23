@@ -1,0 +1,12 @@
+{"node": 0, "total_raw": 1314, "valid": 1166, "hallucinations": 8, "over_cap_truncated": 140, "hallucination_rate": 0.0061, "over_cap_rate": 0.1065}
+{"node": 1, "total_raw": 1174, "valid": 1131, "hallucinations": 5, "over_cap_truncated": 38, "hallucination_rate": 0.0043, "over_cap_rate": 0.0324}
+{"node": 2, "total_raw": 1108, "valid": 1094, "hallucinations": 5, "over_cap_truncated": 9, "hallucination_rate": 0.0045, "over_cap_rate": 0.0081}
+{"node": 3, "total_raw": 1108, "valid": 1096, "hallucinations": 3, "over_cap_truncated": 9, "hallucination_rate": 0.0027, "over_cap_rate": 0.0081}
+{"node": 4, "total_raw": 1084, "valid": 1077, "hallucinations": 3, "over_cap_truncated": 4, "hallucination_rate": 0.0028, "over_cap_rate": 0.0037}
+{"node": 5, "total_raw": 1065, "valid": 1058, "hallucinations": 3, "over_cap_truncated": 4, "hallucination_rate": 0.0028, "over_cap_rate": 0.0038}
+{"node": 6, "total_raw": 1051, "valid": 1046, "hallucinations": 4, "over_cap_truncated": 1, "hallucination_rate": 0.0038, "over_cap_rate": 0.001}
+{"node": 7, "total_raw": 1043, "valid": 1041, "hallucinations": 2, "over_cap_truncated": 0, "hallucination_rate": 0.0019, "over_cap_rate": 0.0}
+{"node": 8, "total_raw": 1032, "valid": 1032, "hallucinations": 0, "over_cap_truncated": 0, "hallucination_rate": 0.0, "over_cap_rate": 0.0}
+{"node": 9, "total_raw": 1025, "valid": 1023, "hallucinations": 2, "over_cap_truncated": 0, "hallucination_rate": 0.002, "over_cap_rate": 0.0}
+{"node": 10, "total_raw": 1032, "valid": 1031, "hallucinations": 1, "over_cap_truncated": 0, "hallucination_rate": 0.001, "over_cap_rate": 0.0}
+{"node": 11, "total_raw": 1047, "valid": 1047, "hallucinations": 0, "over_cap_truncated": 0, "hallucination_rate": 0.0, "over_cap_rate": 0.0}

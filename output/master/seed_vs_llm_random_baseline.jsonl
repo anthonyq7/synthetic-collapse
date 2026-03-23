@@ -1,0 +1,12 @@
+{"node": 0, "n_runs_seed": 50, "seed_rate_mean": 0.323889, "seed_rate_ci_low": 0.323889, "seed_rate_ci_high": 0.323889}
+{"node": 1, "n_runs_seed": 50, "seed_rate_mean": 0.315313, "seed_rate_ci_low": 0.31113, "seed_rate_ci_high": 0.319496}
+{"node": 2, "n_runs_seed": 50, "seed_rate_mean": 0.304116, "seed_rate_ci_low": 0.298017, "seed_rate_ci_high": 0.310215}
+{"node": 3, "n_runs_seed": 50, "seed_rate_mean": 0.306998, "seed_rate_ci_low": 0.301324, "seed_rate_ci_high": 0.312672}
+{"node": 4, "n_runs_seed": 50, "seed_rate_mean": 0.2992, "seed_rate_ci_low": 0.29226, "seed_rate_ci_high": 0.30614}
+{"node": 5, "n_runs_seed": 50, "seed_rate_mean": 0.295032, "seed_rate_ci_low": 0.28619, "seed_rate_ci_high": 0.303875}
+{"node": 6, "n_runs_seed": 50, "seed_rate_mean": 0.289014, "seed_rate_ci_low": 0.279748, "seed_rate_ci_high": 0.298279}
+{"node": 7, "n_runs_seed": 50, "seed_rate_mean": 0.291721, "seed_rate_ci_low": 0.282643, "seed_rate_ci_high": 0.300799}
+{"node": 8, "n_runs_seed": 50, "seed_rate_mean": 0.290862, "seed_rate_ci_low": 0.279232, "seed_rate_ci_high": 0.302491}
+{"node": 9, "n_runs_seed": 50, "seed_rate_mean": 0.290812, "seed_rate_ci_low": 0.280319, "seed_rate_ci_high": 0.301305}
+{"node": 10, "n_runs_seed": 50, "seed_rate_mean": 0.28744, "seed_rate_ci_low": 0.275236, "seed_rate_ci_high": 0.299645}
+{"node": 11, "n_runs_seed": 50, "seed_rate_mean": 0.29364, "seed_rate_ci_low": 0.278246, "seed_rate_ci_high": 0.309033}

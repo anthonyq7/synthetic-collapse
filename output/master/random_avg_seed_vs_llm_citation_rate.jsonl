@@ -1,0 +1,12 @@
+{"node": 0, "n_runs_seed": 50, "n_runs_llm": 0, "avg_seed_rate": 0.323889, "avg_llm_rate": null}
+{"node": 1, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.315313, "avg_llm_rate": 0.313014}
+{"node": 2, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.304116, "avg_llm_rate": 0.303784}
+{"node": 3, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.306998, "avg_llm_rate": 0.303534}
+{"node": 4, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.2992, "avg_llm_rate": 0.299158}
+{"node": 5, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.295032, "avg_llm_rate": 0.293649}
+{"node": 6, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.289014, "avg_llm_rate": 0.290814}
+{"node": 7, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.291721, "avg_llm_rate": 0.28882}
+{"node": 8, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.290862, "avg_llm_rate": 0.286167}
+{"node": 9, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.290812, "avg_llm_rate": 0.28335}
+{"node": 10, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.28744, "avg_llm_rate": 0.286281}
+{"node": 11, "n_runs_seed": 50, "n_runs_llm": 50, "avg_seed_rate": 0.29364, "avg_llm_rate": 0.290594}

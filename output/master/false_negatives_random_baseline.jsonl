@@ -1,0 +1,12 @@
+{"node": 0, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.0, "shown_ignored_rate_of_shown_ci_low": 0.0, "shown_ignored_rate_of_shown_ci_high": 0.0}
+{"node": 1, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.009333, "shown_ignored_rate_of_shown_ci_low": 0.00677, "shown_ignored_rate_of_shown_ci_high": 0.011897}
+{"node": 2, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.040833, "shown_ignored_rate_of_shown_ci_low": 0.03569, "shown_ignored_rate_of_shown_ci_high": 0.045977}
+{"node": 3, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.103833, "shown_ignored_rate_of_shown_ci_low": 0.098349, "shown_ignored_rate_of_shown_ci_high": 0.109317}
+{"node": 4, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.164314, "shown_ignored_rate_of_shown_ci_low": 0.159527, "shown_ignored_rate_of_shown_ci_high": 0.169102}
+{"node": 5, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.228095, "shown_ignored_rate_of_shown_ci_low": 0.223705, "shown_ignored_rate_of_shown_ci_high": 0.232485}
+{"node": 6, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.275182, "shown_ignored_rate_of_shown_ci_low": 0.269275, "shown_ignored_rate_of_shown_ci_high": 0.281088}
+{"node": 7, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.319028, "shown_ignored_rate_of_shown_ci_low": 0.314108, "shown_ignored_rate_of_shown_ci_high": 0.323947}
+{"node": 8, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.360899, "shown_ignored_rate_of_shown_ci_low": 0.356164, "shown_ignored_rate_of_shown_ci_high": 0.365635}
+{"node": 9, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.398204, "shown_ignored_rate_of_shown_ci_low": 0.393273, "shown_ignored_rate_of_shown_ci_high": 0.403135}
+{"node": 10, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.42367, "shown_ignored_rate_of_shown_ci_low": 0.419783, "shown_ignored_rate_of_shown_ci_high": 0.427557}
+{"node": 11, "n_runs": 50, "shown_ignored_rate_of_shown_mean": 0.432549, "shown_ignored_rate_of_shown_ci_low": 0.42911, "shown_ignored_rate_of_shown_ci_high": 0.435989}
