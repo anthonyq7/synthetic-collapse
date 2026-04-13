@@ -1,0 +1,12 @@
+{"node": 0, "seed_citations": 974, "seed_exposures": 3600, "seed_rate": 0.270556, "llm_citations": 0, "llm_exposures": 0, "llm_rate": null}
+{"node": 1, "seed_citations": 706, "seed_exposures": 1786, "seed_rate": 0.395297, "llm_citations": 335, "llm_exposures": 1814, "llm_rate": 0.184675}
+{"node": 2, "seed_citations": 578, "seed_exposures": 1169, "seed_rate": 0.49444, "llm_citations": 508, "llm_exposures": 2431, "llm_rate": 0.208968}
+{"node": 3, "seed_citations": 506, "seed_exposures": 930, "seed_rate": 0.544086, "llm_citations": 604, "llm_exposures": 2670, "llm_rate": 0.226217}
+{"node": 4, "seed_citations": 419, "seed_exposures": 720, "seed_rate": 0.581944, "llm_citations": 692, "llm_exposures": 2880, "llm_rate": 0.240278}
+{"node": 5, "seed_citations": 338, "seed_exposures": 584, "seed_rate": 0.578767, "llm_citations": 763, "llm_exposures": 3016, "llm_rate": 0.252984}
+{"node": 6, "seed_citations": 312, "seed_exposures": 521, "seed_rate": 0.598848, "llm_citations": 786, "llm_exposures": 3079, "llm_rate": 0.255278}
+{"node": 7, "seed_citations": 264, "seed_exposures": 449, "seed_rate": 0.587973, "llm_citations": 821, "llm_exposures": 3151, "llm_rate": 0.260552}
+{"node": 8, "seed_citations": 262, "seed_exposures": 425, "seed_rate": 0.616471, "llm_citations": 832, "llm_exposures": 3175, "llm_rate": 0.262047}
+{"node": 9, "seed_citations": 233, "seed_exposures": 382, "seed_rate": 0.609948, "llm_citations": 869, "llm_exposures": 3218, "llm_rate": 0.270044}
+{"node": 10, "seed_citations": 176, "seed_exposures": 302, "seed_rate": 0.582781, "llm_citations": 919, "llm_exposures": 3298, "llm_rate": 0.278654}
+{"node": 11, "seed_citations": 184, "seed_exposures": 289, "seed_rate": 0.636678, "llm_citations": 895, "llm_exposures": 3311, "llm_rate": 0.270311}

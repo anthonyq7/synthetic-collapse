@@ -14,6 +14,30 @@ MAX_NODES = 12
 OUTPUT_ROOT = f"{BASE}/output"
 
 
+def _label_offsets(val, other_val, prev_val, next_val, y_lo, y_hi):
+    y_range = y_hi - y_lo
+    margin = 0.06 * y_range
+
+    want_above = val >= other_val
+
+    if prev_val is not None and (val - prev_val) > 0.04 * y_range:
+        want_above = True
+
+    if not want_above and val < y_lo + margin:
+        want_above = True
+    if want_above and val > y_hi - margin:
+        want_above = False
+
+    gap = abs(val - other_val) / y_range if y_range > 0 else 1
+    above_pts = 7 if gap > 0.04 else 11
+    below_pts = -14 if gap > 0.04 else -18
+
+    if want_above:
+        return (0, above_pts), (0, below_pts)
+    else:
+        return (0, below_pts), (0, above_pts)
+
+
 def load_exposure(node: int, data_root: str) -> list[dict]:
     path = f"{data_root}/node_{node}/node_{node}_exposure.jsonl"
     rows = []
@@ -101,7 +125,7 @@ def main():
     ax.plot(
         x,
         seed_rates,
-        color="#E74C3C",
+        color="#10A37F",
         marker="o",
         linewidth=2,
         label="LLM citer — seed papers",
@@ -109,8 +133,8 @@ def main():
     ax.plot(
         x,
         llm_rates,
-        color="#3498DB",
-        marker="s", 
+        color="#4A90D9",
+        marker="s",
         linewidth=2,
         linestyle="--",
         label="LLM citer — LLM papers",
@@ -120,22 +144,30 @@ def main():
     ax.set_ylabel("Citation Rate (citations / exposures) %")
     ax.set_xticks(x)
     ax.set_xticklabels([f"Node {n}" for n in nodes])
-    ax.set_ylim(0, None)
+    all_vals = [v for v in seed_rates + llm_rates if v is not None]
+    y_top = max(all_vals) * 1.22 if all_vals else 0.1
+    ax.set_ylim(0, y_top)
     ax.legend(loc="best", fontsize=8)
 
     y_lo, y_hi = ax.get_ylim()
-    y_range = y_hi - y_lo
-    for i, v in enumerate(seed_rates):
-        if v is not None:
-            offset = (0, -14) if (y_hi - v) < 0.08 * y_range else (0, 8)
-            ax.annotate(f"{v * 100:.1f}%", (x[i], v), textcoords="offset points",
-                        xytext=offset, ha="center", fontsize=8, color="#E74C3C")
-    for i, v in enumerate(llm_rates):
-        offset = (0, 8) if v < 0.08 * y_range else (0, -14)
-        ax.annotate(f"{v * 100:.1f}%", (x[i], v), textcoords="offset points",
-                    xytext=offset, ha="center", fontsize=8, color="#3498DB")
+    for i, (vs, vl) in enumerate(zip(seed_rates, llm_rates)):
+        vs_val = vs if vs is not None else 0
+
+        prev_s = (seed_rates[i - 1] if seed_rates[i - 1] is not None else 0) if i > 0 else None
+        next_s = (seed_rates[i + 1] if seed_rates[i + 1] is not None else 0) if i < len(seed_rates) - 1 else None
+        seed_off, _ = _label_offsets(vs_val, vl, prev_s, next_s, y_lo, y_hi)
+
+        prev_l = llm_rates[i - 1] if i > 0 else None
+        next_l = llm_rates[i + 1] if i < len(llm_rates) - 1 else None
+        llm_off, _ = _label_offsets(vl, vs_val, prev_l, next_l, y_lo, y_hi)
+
+        if vs is not None:
+            ax.annotate(f"{vs * 100:.1f}%", (x[i], vs), textcoords="offset points",
+                        xytext=seed_off, ha="center", fontsize=8, color="#10A37F")
+        ax.annotate(f"{vl * 100:.1f}%", (x[i], vl), textcoords="offset points",
+                    xytext=llm_off, ha="center", fontsize=8, color="#4A90D9")
     fig.suptitle(
-        "Figure 3: Citation Rate of Seed vs LLM-Generated Papers",
+        "GPT 5 Mini Citation Rate of Seed vs LLM-Generated Papers",
         fontsize=12,
     )
     fig.tight_layout()

@@ -24,6 +24,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.claude/
 
 # Virtual environments
 venv/
@@ -41,6 +42,10 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+costs/
+cost_estimation_output/
+misc_scripts/
 
 # Output files (uncomment if you want to ignore generated outputs)
 # output/

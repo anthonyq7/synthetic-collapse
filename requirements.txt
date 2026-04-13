@@ -103,7 +103,9 @@ sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
 sympy==1.14.0
 threadpoolctl==3.6.0
+tiktoken==0.12.0
 tokenizers==0.22.2
+google-genai==1.68.0
 torch==2.10.0
 tqdm==4.67.2
 transformers==5.0.0

@@ -183,7 +183,7 @@ def main():
     ax.plot(
         x,
         exp_y,
-        color="#E74C3C",
+        color="#10A37F",
         marker="o",
         linewidth=2,
         label="LLM (top 10% share)",
@@ -201,25 +201,22 @@ def main():
     ax.set_xlabel("Node (Generation)")
     ax.set_ylabel("Top 10% Papers' Share of Total Citations (%)")
     ax.set_title(
-        "Figure 1: Citation concentration (top 10% of papers) LLM vs random baseline"
+        "Citation concentration (top 10% of papers) GPT 5 Mini vs random baseline"
     )
     ax.set_xticks(x)
     ax.set_xticklabels([f"Node {n}" for n in nodes])
     all_hi = [y for y in (exp_y + rnd_hi) if np.isfinite(y)]
-    y_top = min(100, max(all_hi) * 1.12) if all_hi else 100
+    y_top = min(100, max(all_hi) * 1.22) if all_hi else 100
     ax.set_ylim(0, y_top)
     ax.legend(loc="upper left", fontsize=9)
 
-    y_lo, y_hi = ax.get_ylim()
-    y_range = y_hi - y_lo
-    for i, v in enumerate(exp_y):
-        offset = (0, -14) if (y_hi - v) < 0.08 * y_range else (0, 8)
-        ax.annotate(f"{v:.1f}%", (x[i], v), textcoords="offset points",
-                    xytext=offset, ha="center", fontsize=8, color="#E74C3C")
-    for i, v in enumerate(rnd_mean):
-        offset = (0, 8) if v < 0.08 * y_range else (0, -14)
-        ax.annotate(f"{v:.1f}%", (x[i], v), textcoords="offset points",
-                    xytext=offset, ha="center", fontsize=8, color="#3498DB")
+    for i, (ve, vr) in enumerate(zip(exp_y, rnd_mean)):
+        exp_off = (0, 7) if ve >= vr else (0, -14)
+        rnd_off = (0, -14) if ve >= vr else (0, 7)
+        ax.annotate(f"{ve:.1f}%", (x[i], ve), textcoords="offset points",
+                    xytext=exp_off, ha="center", fontsize=8, color="#10A37F")
+        ax.annotate(f"{vr:.1f}%", (x[i], vr), textcoords="offset points",
+                    xytext=rnd_off, ha="center", fontsize=8, color="#3498DB")
 
     fig.tight_layout()
     fig.savefig(f"{master_dir}/concentration.png", dpi=150, bbox_inches="tight")

@@ -260,9 +260,9 @@ async def generate_node(node: int):
                     "paper_id": paper_id,
                     "node": node,
                     "original_count": len(citation_id_set),
-                    "original_citation_ids": sorted(citation_id_set),
+                    "original_citation_ids": list(citation_id_set),
                 })
-                citation_id_set = set(random.sample(sorted(citation_id_set), CITATION_CAP))
+                citation_id_set = set(list(citation_id_set)[:CITATION_CAP])
 
             for cited_id in citation_id_set:
                 node_citations[cited_id] += 1

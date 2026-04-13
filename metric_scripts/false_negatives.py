@@ -10,6 +10,30 @@ from random_aggregate import bonferroni_mean_ci, list_random_run_dirs
 def _get_rate(entry):
     return entry["rate"]
 
+
+def _label_offsets(val, other_val, prev_val, next_val, y_lo, y_hi):
+    y_range = y_hi - y_lo
+    margin = 0.06 * y_range
+
+    want_above = val >= other_val
+
+    if prev_val is not None and (val - prev_val) > 0.04 * y_range:
+        want_above = True
+
+    if not want_above and val < y_lo + margin:
+        want_above = True
+    if want_above and val > y_hi - margin:
+        want_above = False
+
+    gap = abs(val - other_val) / y_range if y_range > 0 else 1
+    above_pts = 7 if gap > 0.04 else 11
+    below_pts = -14 if gap > 0.04 else -18
+
+    if want_above:
+        return (0, above_pts), (0, below_pts)
+    else:
+        return (0, below_pts), (0, above_pts)
+
 BASE = "."
 MAX_NODES = 12
 SEED_COUNT = 120
@@ -204,7 +228,7 @@ def main():
     x = np.arange(len(nodes))
 
     fig, ax = plt.subplots(figsize=(12, 6))
-    ax.plot(x, exp_rates, color="#E74C3C", marker="o", linewidth=2, label="LLM")
+    ax.plot(x, exp_rates, color="#10A37F", marker="o", linewidth=2, label="LLM")
     ax.plot(
         x,
         rnd_mean,
@@ -221,21 +245,25 @@ def main():
     ax.set_xticklabels([f"Node {n}" for n in nodes])
     all_y = exp_rates + rnd_mean + rnd_hi
     max_rate = max(all_y) if all_y else 0.05
-    ax.set_ylim(0, max_rate * 1.25)
+    ax.set_ylim(0, max_rate * 1.35)
     ax.legend(loc="upper left", fontsize=9)
 
     y_lo, y_hi = ax.get_ylim()
-    y_range = y_hi - y_lo
-    for i, v in enumerate(exp_rates):
-        offset = (0, -14) if (y_hi - v) < 0.08 * y_range else (0, 8)
-        ax.annotate(f"{v * 100:.1f}%", (x[i], v), textcoords="offset points",
-                    xytext=offset, ha="center", fontsize=8, color="#E74C3C")
-    for i, v in enumerate(rnd_mean):
-        offset = (0, 8) if v < 0.08 * y_range else (0, -14)
-        ax.annotate(f"{v * 100:.1f}%", (x[i], v), textcoords="offset points",
-                    xytext=offset, ha="center", fontsize=8, color="#3498DB")
+    for i, (ve, vr) in enumerate(zip(exp_rates, rnd_mean)):
+        prev_e = exp_rates[i - 1] if i > 0 else None
+        next_e = exp_rates[i + 1] if i < len(exp_rates) - 1 else None
+        exp_off, _ = _label_offsets(ve, vr, prev_e, next_e, y_lo, y_hi)
+
+        prev_r = rnd_mean[i - 1] if i > 0 else None
+        next_r = rnd_mean[i + 1] if i < len(rnd_mean) - 1 else None
+        rnd_off, _ = _label_offsets(vr, ve, prev_r, next_r, y_lo, y_hi)
+
+        ax.annotate(f"{ve * 100:.1f}%", (x[i], ve), textcoords="offset points",
+                    xytext=exp_off, ha="center", fontsize=8, color="#10A37F")
+        ax.annotate(f"{vr * 100:.1f}%", (x[i], vr), textcoords="offset points",
+                    xytext=rnd_off, ha="center", fontsize=8, color="#3498DB")
     fig.suptitle(
-        "Figure 2: Uncited Rate among Shown Papers by Node (False Negatives)",
+        "GPT 5 Mini False Negatives",
         fontsize=12,
     )
     fig.tight_layout()

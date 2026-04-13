@@ -1,106 +1,109 @@
 {
-  "total_prompt_tokens": 9490761,
-  "total_completion_tokens": 3804382,
-  "total_tokens": 13295143,
+  "total_prompt_tokens": 9194336,
+  "total_completion_tokens": 2922267,
+  "total_tokens": 12116603,
   "total_papers": 1440,
-  "mean_input_tokens_per_paper": 6590.806,
-  "mean_output_tokens_per_paper": 2641.932,
+  "mean_input_tokens_per_paper": 6384.956,
+  "mean_output_tokens_per_paper": 2029.352,
+  "system_prompt_tokens": 172,
+  "avg_tokens_per_seed_paper_in_context": 267.682,
+  "avg_tokens_per_llm_paper_in_context": 185.805,
   "by_node": [
     {
       "node": 0,
       "papers": 120,
-      "total_prompt_tokens": 972520,
-      "total_completion_tokens": 399437,
-      "mean_prompt_tokens_per_paper": 8104.33,
-      "mean_completion_tokens_per_paper": 3328.64
+      "total_prompt_tokens": 984294,
+      "total_completion_tokens": 293838,
+      "mean_prompt_tokens_per_paper": 8202.45,
+      "mean_completion_tokens_per_paper": 2448.65
     },
     {
       "node": 1,
       "papers": 120,
-      "total_prompt_tokens": 859372,
-      "total_completion_tokens": 353886,
-      "mean_prompt_tokens_per_paper": 7161.43,
-      "mean_completion_tokens_per_paper": 2949.05
+      "total_prompt_tokens": 834713,
+      "total_completion_tokens": 257296,
+      "mean_prompt_tokens_per_paper": 6955.94,
+      "mean_completion_tokens_per_paper": 2144.13
     },
     {
       "node": 2,
       "papers": 120,
-      "total_prompt_tokens": 811875,
-      "total_completion_tokens": 334809,
-      "mean_prompt_tokens_per_paper": 6765.62,
-      "mean_completion_tokens_per_paper": 2790.07
+      "total_prompt_tokens": 777032,
+      "total_completion_tokens": 245107,
+      "mean_prompt_tokens_per_paper": 6475.27,
+      "mean_completion_tokens_per_paper": 2042.56
     },
     {
       "node": 3,
       "papers": 120,
-      "total_prompt_tokens": 795034,
-      "total_completion_tokens": 318025,
-      "mean_prompt_tokens_per_paper": 6625.28,
-      "mean_completion_tokens_per_paper": 2650.21
+      "total_prompt_tokens": 760768,
+      "total_completion_tokens": 243720,
+      "mean_prompt_tokens_per_paper": 6339.73,
+      "mean_completion_tokens_per_paper": 2031.0
     },
     {
       "node": 4,
       "papers": 120,
-      "total_prompt_tokens": 785468,
-      "total_completion_tokens": 313350,
-      "mean_prompt_tokens_per_paper": 6545.57,
-      "mean_completion_tokens_per_paper": 2611.25
+      "total_prompt_tokens": 759919,
+      "total_completion_tokens": 250336,
+      "mean_prompt_tokens_per_paper": 6332.66,
+      "mean_completion_tokens_per_paper": 2086.13
     },
     {
       "node": 5,
       "papers": 120,
-      "total_prompt_tokens": 777536,
-      "total_completion_tokens": 306293,
-      "mean_prompt_tokens_per_paper": 6479.47,
-      "mean_completion_tokens_per_paper": 2552.44
+      "total_prompt_tokens": 740764,
+      "total_completion_tokens": 232201,
+      "mean_prompt_tokens_per_paper": 6173.03,
+      "mean_completion_tokens_per_paper": 1935.01
     },
     {
       "node": 6,
       "papers": 120,
-      "total_prompt_tokens": 760852,
-      "total_completion_tokens": 297999,
-      "mean_prompt_tokens_per_paper": 6340.43,
-      "mean_completion_tokens_per_paper": 2483.32
+      "total_prompt_tokens": 730407,
+      "total_completion_tokens": 233086,
+      "mean_prompt_tokens_per_paper": 6086.73,
+      "mean_completion_tokens_per_paper": 1942.38
     },
     {
       "node": 7,
       "papers": 120,
-      "total_prompt_tokens": 753579,
-      "total_completion_tokens": 304755,
-      "mean_prompt_tokens_per_paper": 6279.82,
-      "mean_completion_tokens_per_paper": 2539.62
+      "total_prompt_tokens": 723870,
+      "total_completion_tokens": 230439,
+      "mean_prompt_tokens_per_paper": 6032.25,
+      "mean_completion_tokens_per_paper": 1920.33
     },
     {
       "node": 8,
       "papers": 120,
-      "total_prompt_tokens": 751546,
-      "total_completion_tokens": 295978,
-      "mean_prompt_tokens_per_paper": 6262.88,
-      "mean_completion_tokens_per_paper": 2466.48
+      "total_prompt_tokens": 721961,
+      "total_completion_tokens": 234678,
+      "mean_prompt_tokens_per_paper": 6016.34,
+      "mean_completion_tokens_per_paper": 1955.65
     },
     {
       "node": 9,
       "papers": 120,
-      "total_prompt_tokens": 742436,
-      "total_completion_tokens": 295983,
-      "mean_prompt_tokens_per_paper": 6186.97,
-      "mean_completion_tokens_per_paper": 2466.53
+      "total_prompt_tokens": 726218,
+      "total_completion_tokens": 232769,
+      "mean_prompt_tokens_per_paper": 6051.82,
+      "mean_completion_tokens_per_paper": 1939.74
     },
     {
       "node": 10,
       "papers": 120,
-      "total_prompt_tokens": 742795,
-      "total_completion_tokens": 297435,
-      "mean_prompt_tokens_per_paper": 6189.96,
-      "mean_completion_tokens_per_paper": 2478.62
+      "total_prompt_tokens": 719952,
+      "total_completion_tokens": 234574,
+      "mean_prompt_tokens_per_paper": 5999.6,
+      "mean_completion_tokens_per_paper": 1954.78
     },
     {
       "node": 11,
       "papers": 120,
-      "total_prompt_tokens": 737748,
-      "total_completion_tokens": 286432,
-      "mean_prompt_tokens_per_paper": 6147.9,
-      "mean_completion_tokens_per_paper": 2386.93
+      "total_prompt_tokens": 714438,
+      "total_completion_tokens": 234223,
+      "mean_prompt_tokens_per_paper": 5953.65,
+      "mean_completion_tokens_per_paper": 1951.86
     }
   ]
 }

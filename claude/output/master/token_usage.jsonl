@@ -1,0 +1,12 @@
+{"node": 0, "total_prompt_tokens": 1179187, "total_completion_tokens": 138704, "total_tokens": 1317891}
+{"node": 1, "total_prompt_tokens": 932073, "total_completion_tokens": 129996, "total_tokens": 1062069}
+{"node": 2, "total_prompt_tokens": 837163, "total_completion_tokens": 121799, "total_tokens": 958962}
+{"node": 3, "total_prompt_tokens": 807862, "total_completion_tokens": 117410, "total_tokens": 925272}
+{"node": 4, "total_prompt_tokens": 780110, "total_completion_tokens": 115006, "total_tokens": 895116}
+{"node": 5, "total_prompt_tokens": 758994, "total_completion_tokens": 114652, "total_tokens": 873646}
+{"node": 6, "total_prompt_tokens": 746390, "total_completion_tokens": 110980, "total_tokens": 857370}
+{"node": 7, "total_prompt_tokens": 737195, "total_completion_tokens": 107639, "total_tokens": 844834}
+{"node": 8, "total_prompt_tokens": 733925, "total_completion_tokens": 110169, "total_tokens": 844094}
+{"node": 9, "total_prompt_tokens": 724594, "total_completion_tokens": 108011, "total_tokens": 832605}
+{"node": 10, "total_prompt_tokens": 713719, "total_completion_tokens": 107340, "total_tokens": 821059}
+{"node": 11, "total_prompt_tokens": 711411, "total_completion_tokens": 106882, "total_tokens": 818293}
