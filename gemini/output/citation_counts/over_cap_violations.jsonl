@@ -1,0 +1,244 @@
+{"paper_id": "N0P34", "node": 0, "original_count": 11, "original_citation_ids": ["SEED_14", "SEED_28", "SEED_59", "SEED_15", "SEED_119", "SEED_82", "SEED_53", "SEED_11", "SEED_52", "SEED_31", "SEED_107"]}
+{"paper_id": "N0P105", "node": 0, "original_count": 11, "original_citation_ids": ["SEED_83", "SEED_89", "SEED_72", "SEED_47", "SEED_58", "SEED_87", "SEED_10", "SEED_51", "SEED_99", "SEED_21", "SEED_115"]}
+{"paper_id": "N0P27", "node": 0, "original_count": 11, "original_citation_ids": ["SEED_32", "SEED_61", "SEED_1", "SEED_96", "SEED_81", "SEED_6", "SEED_109", "SEED_62", "SEED_23", "SEED_36", "SEED_115"]}
+{"paper_id": "N0P75", "node": 0, "original_count": 11, "original_citation_ids": ["SEED_61", "SEED_55", "SEED_64", "SEED_59", "SEED_9", "SEED_87", "SEED_52", "SEED_39", "SEED_108", "SEED_107", "SEED_98"]}
+{"paper_id": "N0P78", "node": 0, "original_count": 11, "original_citation_ids": ["SEED_61", "SEED_13", "SEED_118", "SEED_9", "SEED_58", "SEED_87", "SEED_51", "SEED_38", "SEED_115", "SEED_103", "SEED_88"]}
+{"paper_id": "N0P16", "node": 0, "original_count": 11, "original_citation_ids": ["SEED_17", "SEED_59", "SEED_85", "SEED_58", "SEED_15", "SEED_81", "SEED_95", "SEED_6", "SEED_108", "SEED_31", "SEED_33"]}
+{"paper_id": "N0P115", "node": 0, "original_count": 11, "original_citation_ids": ["SEED_65", "SEED_28", "SEED_13", "SEED_64", "SEED_47", "SEED_1", "SEED_98", "SEED_95", "SEED_86", "SEED_33", "SEED_88"]}
+{"paper_id": "N1P20", "node": 1, "original_count": 11, "original_citation_ids": ["N0P14", "N0P30", "N0P65", "N0P52", "SEED_47", "N0P51", "N0P50", "SEED_111", "SEED_99", "N0P0", "SEED_73"]}
+{"paper_id": "N1P36", "node": 1, "original_count": 11, "original_citation_ids": ["N0P85", "N0P91", "N0P60", "N0P103", "SEED_87", "SEED_80", "N0P84", "SEED_108", "SEED_38", "N0P8", "SEED_24"]}
+{"paper_id": "N1P96", "node": 1, "original_count": 12, "original_citation_ids": ["N0P59", "SEED_14", "N0P66", "SEED_28", "N0P57", "SEED_94", "N0P27", "N0P34", "SEED_99", "SEED_109", "SEED_33", "SEED_27"]}
+{"paper_id": "N1P114", "node": 1, "original_count": 11, "original_citation_ids": ["SEED_41", "SEED_113", "SEED_84", "N0P45", "SEED_119", "SEED_26", "N0P94", "N0P27", "N0P43", "SEED_25", "N0P102"]}
+{"paper_id": "N1P51", "node": 1, "original_count": 11, "original_citation_ids": ["N0P79", "N0P91", "SEED_47", "SEED_112", "SEED_68", "SEED_95", "N0P69", "SEED_44", "N0P34", "N0P102", "N0P29"]}
+{"paper_id": "N1P70", "node": 1, "original_count": 11, "original_citation_ids": ["N0P79", "N0P57", "N0P93", "N0P88", "SEED_53", "N0P27", "SEED_0", "N0P17", "N0P92", "N0P84", "SEED_99"]}
+{"paper_id": "N1P26", "node": 1, "original_count": 12, "original_citation_ids": ["SEED_89", "N0P59", "N0P91", "N0P57", "SEED_3", "N0P110", "N0P37", "N0P89", "N0P106", "N0P92", "N0P112", "SEED_103"]}
+{"paper_id": "N1P71", "node": 1, "original_count": 11, "original_citation_ids": ["N0P62", "N0P20", "N0P51", "N0P73", "N0P42", "N0P54", "N0P72", "SEED_31", "N0P0", "SEED_21", "N0P33"]}
+{"paper_id": "N1P17", "node": 1, "original_count": 11, "original_citation_ids": ["SEED_14", "N0P75", "N0P17", "N0P106", "N0P34", "SEED_99", "N0P46", "N0P0", "SEED_90", "SEED_103", "N0P102"]}
+{"paper_id": "N1P66", "node": 1, "original_count": 11, "original_citation_ids": ["SEED_45", "N0P83", "N0P113", "N0P103", "SEED_30", "N0P109", "N0P90", "SEED_80", "SEED_6", "N0P119", "SEED_109"]}
+{"paper_id": "N1P23", "node": 1, "original_count": 11, "original_citation_ids": ["SEED_72", "SEED_14", "N0P100", "SEED_13", "N0P103", "N0P51", "SEED_96", "SEED_42", "N0P39", "N0P110", "N0P92"]}
+{"paper_id": "N1P28", "node": 1, "original_count": 11, "original_citation_ids": ["N0P44", "SEED_100", "N0P62", "SEED_103", "N0P60", "N0P40", "N0P49", "N0P76", "SEED_114", "N0P8", "N0P55"]}
+{"paper_id": "N1P111", "node": 1, "original_count": 12, "original_citation_ids": ["N0P118", "N0P105", "N0P111", "SEED_116", "N0P54", "N0P90", "N0P53", "SEED_99", "N0P95", "N0P82", "SEED_33", "N0P38"]}
+{"paper_id": "N1P58", "node": 1, "original_count": 12, "original_citation_ids": ["N0P19", "SEED_40", "SEED_69", "N0P45", "SEED_58", "SEED_82", "N0P96", "N0P48", "SEED_109", "SEED_21", "N0P38", "N0P55"]}
+{"paper_id": "N1P3", "node": 1, "original_count": 11, "original_citation_ids": ["SEED_41", "N0P59", "SEED_45", "SEED_14", "N0P83", "N0P67", "N0P105", "SEED_116", "N0P28", "N0P97", "SEED_70"]}
+{"paper_id": "N1P45", "node": 1, "original_count": 11, "original_citation_ids": ["N0P62", "SEED_28", "N0P98", "SEED_18", "N0P15", "N0P88", "SEED_116", "N0P28", "SEED_52", "SEED_99", "N0P104"]}
+{"paper_id": "N1P18", "node": 1, "original_count": 12, "original_citation_ids": ["N0P21", "N0P52", "N0P41", "SEED_9", "N0P73", "N0P105", "N0P11", "N0P28", "N0P92", "N0P78", "N0P95", "SEED_114"]}
+{"paper_id": "N1P100", "node": 1, "original_count": 11, "original_citation_ids": ["N0P52", "SEED_118", "SEED_47", "N0P51", "N0P60", "SEED_95", "N0P114", "N0P106", "N0P35", "SEED_70", "SEED_88"]}
+{"paper_id": "N1P4", "node": 1, "original_count": 13, "original_citation_ids": ["SEED_89", "SEED_8", "N0P22", "N0P79", "N0P41", "N0P15", "N0P7", "SEED_42", "N0P73", "SEED_35", "N0P77", "N0P110", "N0P24"]}
+{"paper_id": "N1P5", "node": 1, "original_count": 11, "original_citation_ids": ["N0P64", "N0P22", "N0P83", "N0P113", "N0P57", "N0P82", "N0P17", "N0P53", "SEED_99", "N0P104", "SEED_107"]}
+{"paper_id": "N1P46", "node": 1, "original_count": 12, "original_citation_ids": ["N0P30", "N0P59", "SEED_84", "N0P98", "N0P57", "N0P51", "SEED_85", "N0P39", "N0P3", "N0P58", "SEED_98", "N0P38"]}
+{"paper_id": "N1P65", "node": 1, "original_count": 13, "original_citation_ids": ["N0P59", "N0P52", "SEED_13", "SEED_118", "N0P113", "N0P40", "N0P15", "SEED_95", "N0P114", "SEED_49", "N0P27", "N0P106", "SEED_4"]}
+{"paper_id": "N1P117", "node": 1, "original_count": 11, "original_citation_ids": ["SEED_41", "N0P5", "N0P47", "N0P41", "N0P88", "SEED_53", "N0P78", "N0P3", "N0P9", "N0P84", "N0P8"]}
+{"paper_id": "N1P41", "node": 1, "original_count": 11, "original_citation_ids": ["N0P12", "N0P68", "N0P113", "N0P67", "N0P15", "N0P103", "N0P77", "N0P53", "N0P119", "N0P112", "N0P97"]}
+{"paper_id": "N1P82", "node": 1, "original_count": 11, "original_citation_ids": ["SEED_14", "N0P10", "SEED_85", "N0P39", "SEED_110", "N0P34", "N0P35", "N0P63", "SEED_19", "N0P38", "N0P55"]}
+{"paper_id": "N1P90", "node": 1, "original_count": 11, "original_citation_ids": ["N0P98", "N0P16", "SEED_59", "SEED_30", "N0P92", "N0P84", "SEED_108", "SEED_23", "SEED_90", "SEED_27", "SEED_88"]}
+{"paper_id": "N1P98", "node": 1, "original_count": 11, "original_citation_ids": ["SEED_86", "SEED_89", "N0P44", "SEED_14", "N0P98", "N0P57", "SEED_118", "N0P77", "SEED_99", "SEED_31", "SEED_114"]}
+{"paper_id": "N1P6", "node": 1, "original_count": 11, "original_citation_ids": ["N0P30", "SEED_45", "N0P32", "N0P61", "N0P57", "N0P15", "SEED_53", "N0P28", "N0P119", "N0P117", "N0P75"]}
+{"paper_id": "N1P47", "node": 1, "original_count": 12, "original_citation_ids": ["SEED_83", "SEED_50", "SEED_55", "SEED_28", "N0P16", "N0P103", "SEED_116", "N0P53", "N0P84", "SEED_31", "SEED_109", "SEED_24"]}
+{"paper_id": "N1P75", "node": 1, "original_count": 12, "original_citation_ids": ["N0P100", "N0P107", "N0P113", "N0P28", "N0P3", "SEED_74", "N0P6", "N0P4", "N0P97", "N0P8", "SEED_103", "SEED_88"]}
+{"paper_id": "N1P60", "node": 1, "original_count": 11, "original_citation_ids": ["N0P30", "SEED_65", "N0P47", "SEED_47", "N0P57", "N0P41", "N0P7", "SEED_82", "SEED_20", "SEED_99", "N0P82"]}
+{"paper_id": "N1P108", "node": 1, "original_count": 11, "original_citation_ids": ["SEED_56", "N0P10", "N0P79", "N0P47", "N0P45", "N0P115", "N0P77", "N0P110", "N0P90", "SEED_99", "N0P99"]}
+{"paper_id": "N1P32", "node": 1, "original_count": 11, "original_citation_ids": ["N0P59", "N0P71", "SEED_55", "N0P5", "N0P98", "SEED_3", "SEED_59", "SEED_30", "N0P109", "N0P49", "N0P46"]}
+{"paper_id": "N1P94", "node": 1, "original_count": 13, "original_citation_ids": ["N0P64", "N0P81", "N0P66", "SEED_84", "N0P107", "SEED_53", "SEED_116", "N0P24", "N0P72", "SEED_74", "N0P78", "SEED_108", "SEED_109"]}
+{"paper_id": "N1P57", "node": 1, "original_count": 12, "original_citation_ids": ["N0P59", "SEED_14", "N0P22", "SEED_17", "N0P32", "N0P94", "N0P28", "SEED_51", "N0P78", "N0P0", "N0P119", "N0P74"]}
+{"paper_id": "N1P49", "node": 1, "original_count": 11, "original_citation_ids": ["SEED_89", "SEED_8", "N0P23", "N0P118", "SEED_112", "SEED_85", "N0P111", "SEED_94", "SEED_110", "N0P112", "SEED_36"]}
+{"paper_id": "N1P25", "node": 1, "original_count": 12, "original_citation_ids": ["N0P14", "SEED_37", "N0P62", "N0P47", "SEED_42", "SEED_95", "N0P27", "N0P13", "N0P35", "N0P8", "SEED_103", "N0P75"]}
+{"paper_id": "N1P33", "node": 1, "original_count": 11, "original_citation_ids": ["N0P85", "N0P2", "SEED_42", "SEED_95", "N0P77", "SEED_10", "N0P106", "N0P17", "SEED_6", "N0P119", "SEED_108"]}
+{"paper_id": "N1P77", "node": 1, "original_count": 12, "original_citation_ids": ["SEED_72", "SEED_55", "SEED_17", "N0P118", "SEED_1", "SEED_36", "SEED_87", "SEED_10", "N0P24", "SEED_6", "N0P53", "SEED_109"]}
+{"paper_id": "N1P34", "node": 1, "original_count": 11, "original_citation_ids": ["N0P66", "SEED_59", "N0P40", "SEED_53", "N0P108", "SEED_51", "N0P35", "N0P42", "SEED_114", "N0P38", "SEED_77"]}
+{"paper_id": "N1P64", "node": 1, "original_count": 11, "original_citation_ids": ["N0P86", "N0P83", "N0P101", "SEED_46", "N0P109", "N0P77", "SEED_7", "N0P108", "SEED_80", "N0P95", "SEED_107"]}
+{"paper_id": "N1P9", "node": 1, "original_count": 11, "original_citation_ids": ["N0P21", "N0P56", "N0P98", "N0P111", "N0P50", "N0P94", "N0P90", "N0P84", "N0P99", "SEED_98", "N0P117"]}
+{"paper_id": "N1P101", "node": 1, "original_count": 13, "original_citation_ids": ["N0P86", "N0P44", "N0P79", "N0P101", "N0P20", "N0P51", "SEED_59", "N0P103", "N0P105", "N0P48", "N0P58", "N0P80", "SEED_88"]}
+{"paper_id": "N1P8", "node": 1, "original_count": 11, "original_citation_ids": ["N0P79", "SEED_19", "SEED_64", "SEED_1", "SEED_20", "N0P17", "N0P28", "N0P53", "SEED_6", "N0P4", "SEED_109"]}
+{"paper_id": "N1P24", "node": 1, "original_count": 11, "original_citation_ids": ["N0P22", "N0P91", "SEED_118", "N0P16", "N0P115", "SEED_81", "N0P77", "N0P94", "N0P95", "SEED_36", "SEED_98"]}
+{"paper_id": "N1P11", "node": 1, "original_count": 11, "original_citation_ids": ["N0P85", "N0P44", "N0P59", "SEED_28", "N0P101", "SEED_3", "N0P15", "N0P105", "N0P11", "N0P94", "N0P72"]}
+{"paper_id": "N1P40", "node": 1, "original_count": 11, "original_citation_ids": ["N0P59", "SEED_16", "N0P114", "N0P111", "N0P94", "N0P48", "SEED_6", "N0P84", "SEED_99", "N0P46", "SEED_88"]}
+{"paper_id": "N1P55", "node": 1, "original_count": 12, "original_citation_ids": ["N0P44", "N0P10", "N0P66", "SEED_84", "N0P57", "N0P103", "SEED_36", "SEED_95", "N0P92", "N0P35", "SEED_109", "N0P8"]}
+{"paper_id": "N2P89", "node": 2, "original_count": 13, "original_citation_ids": ["N1P106", "N0P65", "N1P50", "N1P49", "N0P26", "N0P60", "N0P67", "N1P19", "N1P112", "N0P94", "N0P108", "N1P107", "N0P119"]}
+{"paper_id": "N2P24", "node": 2, "original_count": 11, "original_citation_ids": ["N1P27", "SEED_61", "N0P101", "N1P0", "N1P89", "N0P24", "N1P13", "N1P118", "N0P34", "SEED_24", "N1P56"]}
+{"paper_id": "N2P31", "node": 2, "original_count": 11, "original_citation_ids": ["N0P86", "N0P44", "SEED_89", "N0P68", "N0P41", "N0P2", "SEED_68", "SEED_42", "N0P35", "SEED_108", "N1P4"]}
+{"paper_id": "N2P38", "node": 2, "original_count": 11, "original_citation_ids": ["SEED_83", "N0P66", "N0P83", "SEED_9", "SEED_119", "N1P25", "N0P106", "N0P78", "N0P72", "N1P5", "SEED_88"]}
+{"paper_id": "N2P1", "node": 2, "original_count": 12, "original_citation_ids": ["N0P10", "N0P98", "N0P73", "SEED_42", "N1P91", "N0P18", "N1P102", "N1P83", "N0P76", "N0P33", "N0P75", "N1P48"]}
+{"paper_id": "N2P0", "node": 2, "original_count": 11, "original_citation_ids": ["N1P37", "N1P86", "SEED_55", "N1P38", "N1P115", "N0P111", "N1P42", "N0P34", "SEED_23", "N1P78", "N0P102"]}
+{"paper_id": "N2P71", "node": 2, "original_count": 11, "original_citation_ids": ["N0P21", "N0P56", "N1P19", "N0P113", "N0P111", "N0P54", "SEED_108", "N1P62", "N0P0", "N1P15", "N0P8"]}
+{"paper_id": "N2P67", "node": 2, "original_count": 12, "original_citation_ids": ["SEED_28", "N1P23", "N0P51", "N0P7", "SEED_1", "SEED_119", "SEED_27", "N0P72", "SEED_21", "N1P93", "SEED_78", "N0P75"]}
+{"paper_id": "N2P6", "node": 2, "original_count": 11, "original_citation_ids": ["N0P59", "N1P43", "N1P36", "SEED_28", "SEED_42", "N1P67", "N1P22", "N0P3", "N1P26", "SEED_54", "SEED_88"]}
+{"paper_id": "N2P85", "node": 2, "original_count": 11, "original_citation_ids": ["SEED_55", "N0P103", "N0P51", "SEED_63", "SEED_10", "N0P78", "SEED_99", "N1P88", "SEED_33", "N0P104", "N0P38"]}
+{"paper_id": "N2P15", "node": 2, "original_count": 11, "original_citation_ids": ["N1P106", "N1P100", "N1P18", "N1P99", "N0P73", "SEED_26", "N1P46", "N1P66", "N1P33", "N1P97", "SEED_88"]}
+{"paper_id": "N2P9", "node": 2, "original_count": 11, "original_citation_ids": ["SEED_41", "N0P44", "SEED_28", "SEED_84", "N1P47", "SEED_3", "N1P69", "N0P69", "N1P101", "N0P106", "N1P59"]}
+{"paper_id": "N2P65", "node": 2, "original_count": 11, "original_citation_ids": ["N0P61", "N0P66", "N0P83", "N0P56", "N0P5", "SEED_104", "N1P67", "N0P95", "N0P0", "N1P110", "N1P74"]}
+{"paper_id": "N2P27", "node": 2, "original_count": 11, "original_citation_ids": ["N1P43", "N1P49", "N0P45", "N1P29", "N0P90", "N0P34", "N1P40", "N0P76", "N1P15", "N0P8", "N0P55"]}
+{"paper_id": "N2P8", "node": 2, "original_count": 13, "original_citation_ids": ["N0P71", "N1P19", "N0P57", "N1P115", "N0P7", "SEED_42", "N1P75", "SEED_0", "N1P102", "N0P106", "N1P17", "SEED_36", "N1P6"]}
+{"paper_id": "N2P103", "node": 2, "original_count": 11, "original_citation_ids": ["SEED_86", "N1P117", "N0P5", "N0P83", "N0P51", "SEED_44", "SEED_80", "N1P110", "SEED_114", "N0P1", "N1P37"]}
+{"paper_id": "N2P80", "node": 2, "original_count": 11, "original_citation_ids": ["N0P86", "SEED_55", "SEED_35", "N0P18", "N1P35", "SEED_94", "N0P3", "N0P84", "N1P40", "N1P58", "N0P75"]}
+{"paper_id": "N2P26", "node": 2, "original_count": 11, "original_citation_ids": ["N1P36", "N1P1", "N1P115", "SEED_118", "N0P111", "SEED_81", "N1P68", "SEED_26", "SEED_94", "SEED_99", "SEED_29"]}
+{"paper_id": "N2P60", "node": 2, "original_count": 12, "original_citation_ids": ["N1P85", "N0P99", "N0P98", "N1P52", "N1P16", "N0P25", "N1P13", "SEED_108", "SEED_25", "SEED_63", "SEED_33", "SEED_27"]}
+{"paper_id": "N2P92", "node": 2, "original_count": 11, "original_citation_ids": ["SEED_118", "N1P81", "SEED_95", "N0P34", "SEED_52", "N1P40", "N1P90", "N1P75", "N0P55", "N1P70", "N0P117"]}
+{"paper_id": "N2P12", "node": 2, "original_count": 12, "original_citation_ids": ["N0P59", "N1P50", "N0P98", "N1P45", "N1P6", "N0P94", "N1P53", "N0P78", "N0P4", "N1P88", "N1P66", "SEED_27"]}
+{"paper_id": "N2P44", "node": 2, "original_count": 11, "original_citation_ids": ["SEED_56", "SEED_14", "SEED_64", "SEED_30", "SEED_87", "N1P68", "N0P3", "N0P49", "N0P92", "N0P97", "N0P55"]}
+{"paper_id": "N2P16", "node": 2, "original_count": 12, "original_citation_ids": ["N1P86", "SEED_61", "N0P62", "N0P103", "N0P67", "N0P73", "N0P114", "N0P90", "SEED_110", "SEED_101", "N0P48", "N1P2"]}
+{"paper_id": "N2P23", "node": 2, "original_count": 11, "original_citation_ids": ["N1P37", "SEED_45", "N1P100", "N0P32", "SEED_104", "SEED_49", "N1P9", "N1P51", "SEED_31", "SEED_24", "N0P75"]}
+{"paper_id": "N2P33", "node": 2, "original_count": 11, "original_citation_ids": ["SEED_14", "N0P21", "SEED_103", "N0P5", "N1P52", "SEED_5", "SEED_20", "N1P62", "SEED_86", "N1P15", "N0P1"]}
+{"paper_id": "N2P101", "node": 2, "original_count": 12, "original_citation_ids": ["N1P3", "N0P44", "SEED_55", "N0P4", "N0P57", "SEED_81", "N1P29", "N1P65", "SEED_6", "N0P92", "N0P95", "N1P70"]}
+{"paper_id": "N2P97", "node": 2, "original_count": 12, "original_citation_ids": ["N1P36", "N0P45", "N1P115", "N1P80", "SEED_59", "N1P7", "N1P93", "N0P3", "N0P43", "N1P90", "N1P97", "SEED_27"]}
+{"paper_id": "N2P69", "node": 2, "original_count": 13, "original_citation_ids": ["SEED_41", "SEED_61", "N0P32", "N1P23", "N0P57", "N0P51", "N0P16", "N0P40", "SEED_80", "SEED_74", "SEED_62", "N0P0", "SEED_90"]}
+{"paper_id": "N2P73", "node": 2, "original_count": 11, "original_citation_ids": ["SEED_61", "N0P62", "SEED_47", "SEED_104", "SEED_81", "N1P59", "N1P58", "N0P42", "SEED_33", "SEED_43", "N0P117"]}
+{"paper_id": "N2P36", "node": 2, "original_count": 12, "original_citation_ids": ["N1P104", "N1P98", "N0P91", "N0P16", "SEED_9", "N0P18", "N0P48", "N1P105", "SEED_6", "SEED_39", "N0P72", "N0P55"]}
+{"paper_id": "N2P10", "node": 2, "original_count": 11, "original_citation_ids": ["N1P43", "N0P10", "SEED_118", "N1P115", "N0P15", "SEED_42", "SEED_119", "N0P96", "N0P92", "N0P82", "N1P111"]}
+{"paper_id": "N2P109", "node": 2, "original_count": 11, "original_citation_ids": ["N0P70", "N1P31", "N0P91", "N0P56", "N0P67", "SEED_30", "N1P55", "SEED_108", "N1P110", "SEED_24", "N0P102"]}
+{"paper_id": "N2P86", "node": 2, "original_count": 13, "original_citation_ids": ["N1P82", "N0P59", "SEED_56", "N0P74", "N0P113", "N0P40", "N0P105", "N1P74", "SEED_6", "N1P64", "SEED_43", "N0P1", "N1P111"]}
+{"paper_id": "N2P21", "node": 2, "original_count": 11, "original_citation_ids": ["N0P12", "N1P32", "N0P85", "N0P27", "N0P102", "N0P48", "N1P107", "N1P51", "SEED_23", "N1P78", "N1P111"]}
+{"paper_id": "N2P30", "node": 2, "original_count": 12, "original_citation_ids": ["N1P85", "N0P65", "SEED_84", "SEED_64", "SEED_118", "N1P45", "SEED_30", "N0P73", "N0P110", "N0P54", "SEED_110", "N1P88"]}
+{"paper_id": "N2P105", "node": 2, "original_count": 11, "original_citation_ids": ["N1P106", "N0P93", "N0P67", "N0P116", "N1P0", "N1P76", "N1P59", "N1P64", "N1P54", "N1P15", "N0P8"]}
+{"paper_id": "N2P37", "node": 2, "original_count": 16, "original_citation_ids": ["N0P57", "N0P51", "N0P67", "SEED_3", "N0P115", "N0P39", "N1P35", "SEED_0", "N0P35", "N0P28", "N1P107", "N0P34", "N1P40", "N1P90", "N0P38", "N0P29"]}
+{"paper_id": "N2P117", "node": 2, "original_count": 11, "original_citation_ids": ["N0P107", "N1P23", "N1P81", "SEED_68", "SEED_15", "SEED_116", "N1P53", "N0P3", "N0P33", "N1P33", "N1P74"]}
+{"paper_id": "N2P48", "node": 2, "original_count": 11, "original_citation_ids": ["N0P64", "N1P32", "SEED_61", "N0P81", "N0P19", "N0P118", "N1P67", "N1P112", "N1P68", "N0P78", "N1P4"]}
+{"paper_id": "N2P94", "node": 2, "original_count": 11, "original_citation_ids": ["N1P117", "N0P113", "N0P116", "N1P76", "N1P34", "SEED_4", "N1P64", "SEED_108", "N1P60", "SEED_21", "N0P8"]}
+{"paper_id": "N2P49", "node": 2, "original_count": 11, "original_citation_ids": ["SEED_22", "SEED_83", "N1P86", "SEED_64", "N0P2", "N0P15", "N1P76", "N1P30", "N1P79", "N0P84", "N1P111"]}
+{"paper_id": "N2P115", "node": 2, "original_count": 13, "original_citation_ids": ["N0P68", "N1P31", "N0P111", "SEED_81", "N1P73", "SEED_94", "N0P11", "N0P78", "N1P4", "N1P18", "N1P70", "SEED_27", "N1P56"]}
+{"paper_id": "N2P63", "node": 2, "original_count": 16, "original_citation_ids": ["N0P64", "N0P86", "N0P65", "N1P43", "N1P119", "N1P41", "N1P23", "N1P0", "N1P68", "N1P65", "N1P101", "N1P77", "N1P61", "N1P58", "N1P97", "N0P1"]}
+{"paper_id": "N2P5", "node": 2, "original_count": 11, "original_citation_ids": ["SEED_56", "N0P68", "N0P79", "N1P36", "N1P115", "N0P15", "SEED_30", "N1P73", "N0P108", "N1P70", "SEED_24"]}
+{"paper_id": "N2P82", "node": 2, "original_count": 12, "original_citation_ids": ["SEED_8", "N0P66", "N0P47", "N1P8", "N0P111", "N0P88", "N1P76", "N1P67", "N1P77", "N0P106", "N1P96", "N1P111"]}
+{"paper_id": "N2P18", "node": 2, "original_count": 13, "original_citation_ids": ["N0P12", "N0P68", "N1P39", "N0P56", "N1P47", "N0P16", "N0P67", "N0P7", "SEED_42", "SEED_68", "N1P0", "N0P15", "N1P114"]}
+{"paper_id": "N2P83", "node": 2, "original_count": 11, "original_citation_ids": ["N1P104", "N0P44", "SEED_8", "SEED_107", "SEED_21", "N0P55", "SEED_47", "SEED_70", "SEED_1", "SEED_114", "SEED_24"]}
+{"paper_id": "N2P20", "node": 2, "original_count": 12, "original_citation_ids": ["SEED_61", "SEED_55", "N0P56", "N0P47", "SEED_47", "SEED_95", "SEED_49", "SEED_81", "N0P24", "N1P54", "SEED_4", "N0P1"]}
+{"paper_id": "N3P105", "node": 3, "original_count": 11, "original_citation_ids": ["N0P70", "N1P103", "N2P69", "N0P47", "N2P111", "SEED_15", "N0P111", "N0P36", "N1P42", "N0P34", "N1P74"]}
+{"paper_id": "N3P60", "node": 3, "original_count": 12, "original_citation_ids": ["N1P100", "N1P43", "N2P73", "N2P111", "SEED_79", "N2P50", "N0P50", "N2P57", "N0P94", "SEED_94", "N1P90", "SEED_114"]}
+{"paper_id": "N3P112", "node": 3, "original_count": 14, "original_citation_ids": ["N1P84", "SEED_84", "N1P116", "N1P80", "N0P67", "N0P111", "SEED_12", "N2P64", "N0P106", "SEED_62", "N0P104", "N1P33", "N0P117", "N2P31"]}
+{"paper_id": "N3P100", "node": 3, "original_count": 12, "original_citation_ids": ["N0P85", "N0P44", "SEED_17", "SEED_13", "N1P44", "N0P51", "SEED_116", "N0P17", "N2P15", "N2P59", "N1P107", "SEED_77"]}
+{"paper_id": "N3P12", "node": 3, "original_count": 11, "original_citation_ids": ["N1P104", "SEED_53", "N0P110", "N0P25", "N0P13", "N0P78", "SEED_23", "N2P26", "SEED_115", "SEED_78", "N1P37"]}
+{"paper_id": "N3P8", "node": 3, "original_count": 11, "original_citation_ids": ["N1P106", "SEED_61", "SEED_14", "N0P81", "N0P41", "N1P45", "N2P91", "N1P110", "SEED_74", "N2P7", "SEED_21"]}
+{"paper_id": "N3P118", "node": 3, "original_count": 12, "original_citation_ids": ["N1P117", "N0P59", "SEED_47", "SEED_110", "SEED_80", "N1P118", "N2P54", "N2P8", "N0P95", "N1P110", "N1P94", "N1P48"]}
+{"paper_id": "N3P0", "node": 3, "original_count": 11, "original_citation_ids": ["SEED_41", "N0P59", "SEED_55", "SEED_118", "N1P52", "SEED_112", "N0P111", "N0P27", "N1P34", "N2P60", "SEED_99"]}
+{"paper_id": "N3P31", "node": 3, "original_count": 11, "original_citation_ids": ["N1P106", "N1P100", "N1P47", "N0P20", "N2P118", "N2P105", "N1P91", "N0P18", "N0P94", "N1P6", "N0P117"]}
+{"paper_id": "N3P90", "node": 3, "original_count": 11, "original_citation_ids": ["N0P68", "N2P45", "N2P14", "N0P32", "N2P83", "N0P110", "N1P22", "N1P83", "N0P3", "N0P31", "N1P37"]}
+{"paper_id": "N3P66", "node": 3, "original_count": 12, "original_citation_ids": ["N0P44", "N0P107", "N2P42", "N0P113", "SEED_47", "SEED_59", "N0P20", "N0P11", "N0P108", "N2P54", "N2P8", "N1P2"]}
+{"paper_id": "N3P110", "node": 3, "original_count": 14, "original_citation_ids": ["N1P92", "N1P49", "N2P22", "N1P115", "N0P93", "N0P57", "SEED_42", "N0P7", "SEED_85", "N0P77", "N0P17", "N0P6", "N2P6", "SEED_109"]}
+{"paper_id": "N3P2", "node": 3, "original_count": 11, "original_citation_ids": ["SEED_83", "N0P32", "N1P103", "N1P45", "N0P40", "N1P42", "N2P103", "N0P84", "N2P6", "N2P64", "N0P80"]}
+{"paper_id": "N3P74", "node": 3, "original_count": 12, "original_citation_ids": ["N2P58", "SEED_55", "N0P57", "SEED_62", "N0P18", "N2P102", "N1P102", "N1P22", "N2P15", "SEED_108", "N0P42", "N2P109"]}
+{"paper_id": "N3P40", "node": 3, "original_count": 11, "original_citation_ids": ["N1P92", "SEED_14", "N0P26", "N2P61", "SEED_87", "SEED_12", "N1P95", "N0P43", "N1P58", "N0P75", "SEED_88"]}
+{"paper_id": "N3P30", "node": 3, "original_count": 11, "original_citation_ids": ["SEED_56", "N2P45", "N0P61", "SEED_118", "N0P111", "SEED_87", "N0P90", "N1P22", "N0P72", "SEED_109", "N0P102"]}
+{"paper_id": "N3P75", "node": 3, "original_count": 11, "original_citation_ids": ["N1P31", "N1P119", "N1P45", "N2P64", "N0P36", "N1P65", "N2P114", "N1P18", "N1P33", "N0P38", "N0P102"]}
+{"paper_id": "N3P18", "node": 3, "original_count": 11, "original_citation_ids": ["N0P66", "N0P52", "N0P103", "SEED_3", "SEED_119", "N1P16", "SEED_94", "N1P102", "N0P84", "SEED_23", "N0P46"]}
+{"paper_id": "N3P20", "node": 3, "original_count": 12, "original_citation_ids": ["N0P64", "N2P41", "N1P108", "N0P62", "SEED_47", "SEED_119", "N1P91", "SEED_10", "N0P110", "N0P94", "SEED_20", "N1P111"]}
+{"paper_id": "N3P55", "node": 3, "original_count": 11, "original_citation_ids": ["N0P79", "SEED_17", "SEED_28", "N0P26", "N0P51", "SEED_98", "N2P113", "N0P18", "N0P53", "N2P64", "N2P107"]}
+{"paper_id": "N3P64", "node": 3, "original_count": 11, "original_citation_ids": ["N2P56", "N0P47", "N0P51", "SEED_59", "SEED_104", "N2P0", "N0P110", "N1P68", "N0P33", "N2P4", "N2P9"]}
+{"paper_id": "N3P98", "node": 3, "original_count": 11, "original_citation_ids": ["SEED_21", "SEED_118", "N0P77", "SEED_53", "N0P90", "N0P92", "N2P54", "SEED_99", "N0P42", "N2P10", "N2P64"]}
+{"paper_id": "N3P11", "node": 3, "original_count": 11, "original_citation_ids": ["N0P59", "SEED_14", "SEED_93", "N0P66", "N0P62", "N2P11", "SEED_116", "SEED_0", "SEED_101", "SEED_23", "SEED_73"]}
+{"paper_id": "N3P92", "node": 3, "original_count": 11, "original_citation_ids": ["N1P19", "N1P116", "SEED_1", "N0P15", "SEED_85", "N0P118", "N0P110", "N1P105", "SEED_39", "N2P84", "N2P76"]}
+{"paper_id": "N3P32", "node": 3, "original_count": 11, "original_citation_ids": ["SEED_100", "N1P38", "N1P23", "N0P16", "SEED_68", "N0P116", "N0P36", "N1P34", "N0P4", "N1P66", "SEED_98"]}
+{"paper_id": "N3P72", "node": 3, "original_count": 11, "original_citation_ids": ["N0P45", "N2P28", "SEED_49", "N2P102", "N2P85", "SEED_6", "N2P89", "N0P0", "N1P18", "SEED_103", "SEED_88"]}
+{"paper_id": "N3P117", "node": 3, "original_count": 12, "original_citation_ids": ["N0P65", "N0P32", "N0P100", "SEED_64", "N0P113", "N2P117", "N0P84", "N2P48", "SEED_27", "N2P7", "N1P96", "N2P84"]}
+{"paper_id": "N3P52", "node": 3, "original_count": 13, "original_citation_ids": ["N2P58", "N2P116", "N1P98", "N0P5", "N0P95", "N1P73", "N1P112", "N1P65", "N0P17", "N1P5", "N1P87", "N1P90", "SEED_90"]}
+{"paper_id": "N3P23", "node": 3, "original_count": 12, "original_citation_ids": ["N0P98", "SEED_58", "N0P77", "N1P35", "N1P68", "SEED_7", "N0P108", "N1P90", "N1P33", "N2P107", "SEED_27", "N1P20"]}
+{"paper_id": "N3P103", "node": 3, "original_count": 14, "original_citation_ids": ["SEED_32", "N1P86", "SEED_55", "N2P58", "N2P63", "SEED_1", "N1P113", "N1P95", "N2P15", "SEED_52", "N1P44", "N0P35", "N0P4", "SEED_33"]}
+{"paper_id": "N3P93", "node": 3, "original_count": 11, "original_citation_ids": ["N2P93", "N2P58", "N2P34", "N0P66", "N1P0", "SEED_39", "N0P108", "N0P92", "N1P44", "N0P112", "SEED_86"]}
+{"paper_id": "N3P119", "node": 3, "original_count": 11, "original_citation_ids": ["N2P40", "N1P43", "N0P66", "N0P101", "SEED_79", "SEED_81", "N2P94", "SEED_20", "N0P28", "N1P64", "N1P110"]}
+{"paper_id": "N3P3", "node": 3, "original_count": 11, "original_citation_ids": ["N2P39", "N2P30", "N2P97", "N2P83", "SEED_104", "N2P50", "N1P59", "N2P15", "N0P3", "SEED_36", "N1P6"]}
+{"paper_id": "N3P95", "node": 3, "original_count": 11, "original_citation_ids": ["N2P37", "SEED_64", "N2P0", "N0P116", "N2P11", "N2P94", "SEED_6", "N2P66", "N1P54", "N1P96", "N0P117"]}
+{"paper_id": "N3P113", "node": 3, "original_count": 11, "original_citation_ids": ["SEED_41", "N1P115", "SEED_3", "SEED_85", "N0P15", "N0P115", "N2P5", "N0P72", "N1P88", "SEED_63", "N2P108"]}
+{"paper_id": "N3P73", "node": 3, "original_count": 12, "original_citation_ids": ["N0P14", "N0P40", "N2P92", "N1P30", "N1P12", "SEED_94", "N1P71", "N2P54", "N1P75", "SEED_107", "N1P93", "N1P10"]}
+{"paper_id": "N3P62", "node": 3, "original_count": 11, "original_citation_ids": ["SEED_41", "SEED_8", "N1P100", "N2P22", "SEED_1", "SEED_85", "N1P65", "N0P89", "N0P106", "N1P55", "SEED_114"]}
+{"paper_id": "N3P77", "node": 3, "original_count": 14, "original_citation_ids": ["N1P108", "N0P71", "N0P56", "N1P28", "N2P90", "SEED_9", "SEED_58", "N0P27", "N2P98", "N1P53", "N1P17", "N0P119", "N2P101", "N0P75"]}
+{"paper_id": "N3P114", "node": 3, "original_count": 11, "original_citation_ids": ["N2P45", "N2P58", "SEED_40", "N2P18", "SEED_47", "SEED_59", "N1P76", "N2P1", "N2P66", "SEED_21", "N1P111"]}
+{"paper_id": "N3P106", "node": 3, "original_count": 12, "original_citation_ids": ["N2P37", "N0P32", "N1P38", "N2P42", "SEED_47", "N1P0", "N0P3", "N1P63", "SEED_99", "N1P6", "SEED_73", "N2P70"]}
+{"paper_id": "N3P87", "node": 3, "original_count": 11, "original_citation_ids": ["N0P85", "SEED_89", "N1P100", "SEED_55", "N0P67", "N2P61", "N1P35", "N1P71", "SEED_23", "N1P54", "N2P109"]}
+{"paper_id": "N3P46", "node": 3, "original_count": 13, "original_citation_ids": ["N1P32", "N0P86", "N0P79", "N1P28", "N1P95", "N0P48", "N0P72", "N0P92", "N2P66", "N2P7", "SEED_21", "N0P74", "SEED_103"]}
+{"paper_id": "N3P80", "node": 3, "original_count": 12, "original_citation_ids": ["N0P59", "N0P79", "SEED_93", "N0P98", "N1P115", "N2P35", "N0P45", "N2P11", "N1P65", "N2P6", "SEED_109", "SEED_103"]}
+{"paper_id": "N3P89", "node": 3, "original_count": 12, "original_citation_ids": ["N2P115", "N0P65", "SEED_35", "N2P85", "N1P61", "N0P50", "N0P28", "N0P53", "N0P78", "N2P33", "N0P42", "N0P38"]}
+{"paper_id": "N3P104", "node": 3, "original_count": 11, "original_citation_ids": ["N0P47", "N2P21", "N2P63", "N1P1", "N1P68", "N1P25", "N1P83", "N0P72", "N1P54", "N2P10", "N2P31"]}
+{"paper_id": "N3P76", "node": 3, "original_count": 11, "original_citation_ids": ["N0P12", "N0P85", "N2P55", "N1P23", "N2P20", "N2P82", "N1P30", "N1P26", "SEED_23", "N1P6", "N1P20"]}
+{"paper_id": "N4P94", "node": 4, "original_count": 11, "original_citation_ids": ["N0P62", "N0P56", "N0P101", "N3P45", "N1P99", "N0P69", "N3P102", "N1P53", "N1P42", "N3P9", "N2P48"]}
+{"paper_id": "N4P108", "node": 4, "original_count": 13, "original_citation_ids": ["N0P30", "SEED_118", "N2P118", "N3P63", "N1P0", "N3P30", "N1P59", "N0P53", "N1P90", "N3P71", "N3P83", "SEED_103", "N0P75"]}
+{"paper_id": "N4P102", "node": 4, "original_count": 11, "original_citation_ids": ["SEED_17", "N3P79", "N0P101", "N3P93", "N2P110", "N0P53", "N1P44", "N3P32", "SEED_23", "N3P89", "N1P111"]}
+{"paper_id": "N4P98", "node": 4, "original_count": 13, "original_citation_ids": ["N3P115", "N2P58", "N2P30", "N0P15", "N0P115", "N3P46", "SEED_119", "N0P105", "N0P90", "N0P13", "N3P90", "N1P77", "N0P1"]}
+{"paper_id": "N4P16", "node": 4, "original_count": 11, "original_citation_ids": ["N1P104", "SEED_8", "N1P47", "N2P18", "N0P115", "SEED_30", "N0P11", "N3P102", "N2P13", "N2P110", "SEED_25"]}
+{"paper_id": "N4P38", "node": 4, "original_count": 11, "original_citation_ids": ["N0P83", "SEED_46", "N3P29", "N0P109", "SEED_53", "N0P110", "N3P74", "N0P43", "N3P71", "N2P99", "SEED_16"]}
+{"paper_id": "N4P7", "node": 4, "original_count": 11, "original_citation_ids": ["N1P106", "N3P11", "N1P19", "N0P67", "N3P63", "N0P116", "N1P53", "N0P78", "N0P112", "SEED_63", "N0P75"]}
+{"paper_id": "N4P65", "node": 4, "original_count": 11, "original_citation_ids": ["N0P86", "N1P43", "N2P97", "N0P23", "N0P79", "N2P90", "N1P59", "SEED_6", "N1P64", "SEED_19", "SEED_103"]}
+{"paper_id": "N4P75", "node": 4, "original_count": 11, "original_citation_ids": ["SEED_8", "N2P55", "N2P35", "N1P69", "N0P114", "N2P50", "SEED_94", "N2P98", "N1P46", "N1P63", "N0P29"]}
+{"paper_id": "N4P42", "node": 4, "original_count": 11, "original_citation_ids": ["N3P10", "N2P58", "N2P106", "N0P83", "N3P1", "N3P93", "N0P40", "N3P9", "N0P72", "N2P7", "N3P70"]}
+{"paper_id": "N4P88", "node": 4, "original_count": 12, "original_citation_ids": ["SEED_61", "SEED_64", "N1P99", "SEED_85", "N1P69", "N3P74", "N0P82", "N1P25", "N1P105", "SEED_99", "SEED_114", "N0P8"]}
+{"paper_id": "N4P45", "node": 4, "original_count": 12, "original_citation_ids": ["N1P106", "SEED_8", "N2P62", "N0P32", "N1P98", "N0P52", "N3P63", "N1P69", "N2P50", "N3P41", "N0P58", "N2P54"]}
+{"paper_id": "N4P111", "node": 4, "original_count": 11, "original_citation_ids": ["SEED_32", "SEED_8", "N2P27", "SEED_71", "N0P79", "N1P68", "N3P38", "N2P60", "N1P40", "N0P4", "N1P15"]}
+{"paper_id": "N4P80", "node": 4, "original_count": 11, "original_citation_ids": ["N2P93", "N0P22", "N0P16", "N0P39", "N2P13", "N3P119", "N1P105", "N1P63", "N0P33", "N3P71", "N1P9"]}
+{"paper_id": "N4P6", "node": 4, "original_count": 12, "original_citation_ids": ["SEED_32", "SEED_41", "N0P10", "N3P36", "N1P64", "N0P11", "N2P47", "N0P88", "N1P95", "N1P67", "N2P112", "SEED_114"]}
+{"paper_id": "N4P101", "node": 4, "original_count": 11, "original_citation_ids": ["SEED_41", "N1P43", "N2P49", "N3P35", "N1P56", "N0P35", "N2P112", "SEED_99", "N1P18", "N2P108", "N1P111"]}
+{"paper_id": "N4P79", "node": 4, "original_count": 11, "original_citation_ids": ["N3P100", "N1P106", "N2P56", "N0P100", "N0P40", "N3P98", "N3P108", "N0P48", "N2P89", "N2P80", "N2P68"]}
+{"paper_id": "N4P82", "node": 4, "original_count": 11, "original_citation_ids": ["N1P37", "N3P12", "N1P49", "N2P79", "N3P58", "N0P110", "N2P24", "SEED_19", "SEED_98", "N0P74", "N2P107"]}
+{"paper_id": "N4P76", "node": 4, "original_count": 13, "original_citation_ids": ["N0P64", "N1P86", "N3P4", "N2P0", "SEED_119", "N1P0", "N0P89", "N0P36", "SEED_23", "N2P1", "N0P112", "N2P84", "N2P10"]}
+{"paper_id": "N4P85", "node": 4, "original_count": 11, "original_citation_ids": ["N1P119", "SEED_18", "N1P45", "N2P61", "N2P50", "N0P78", "N2P1", "SEED_51", "N0P82", "N3P83", "SEED_88"]}
+{"paper_id": "N4P92", "node": 4, "original_count": 12, "original_citation_ids": ["N0P22", "N0P91", "N3P4", "N2P106", "N3P43", "SEED_3", "N0P119", "N1P44", "N0P4", "N0P31", "N3P83", "N0P38"]}
+{"paper_id": "N4P5", "node": 4, "original_count": 11, "original_citation_ids": ["N0P47", "SEED_47", "N1P99", "N3P97", "N2P112", "N3P37", "SEED_26", "N3P22", "N1P44", "SEED_62", "N1P15"]}
+{"paper_id": "N4P90", "node": 4, "original_count": 11, "original_citation_ids": ["N1P85", "N2P25", "N0P22", "N0P57", "N1P115", "N1P0", "N0P111", "N1P25", "N0P37", "SEED_107", "SEED_4"]}
+{"paper_id": "N4P23", "node": 4, "original_count": 13, "original_citation_ids": ["N2P93", "N2P12", "SEED_97", "N0P10", "N0P66", "N1P109", "N3P29", "N0P77", "N0P119", "N2P7", "SEED_107", "N3P83", "N2P109"]}
+{"paper_id": "N4P116", "node": 4, "original_count": 12, "original_citation_ids": ["N1P86", "N0P61", "N3P86", "SEED_34", "N2P63", "N0P2", "N3P66", "N1P11", "SEED_4", "N2P53", "N1P88", "N0P8"]}
+{"paper_id": "N4P113", "node": 4, "original_count": 11, "original_citation_ids": ["N0P65", "N1P39", "N3P76", "SEED_96", "N3P33", "N1P67", "N0P27", "SEED_52", "N0P78", "N3P49", "N0P1"]}
+{"paper_id": "N4P55", "node": 4, "original_count": 11, "original_citation_ids": ["N1P27", "N0P83", "N2P18", "N1P115", "N3P3", "N1P35", "N3P113", "N3P53", "SEED_6", "SEED_19", "SEED_115"]}
+{"paper_id": "N4P96", "node": 4, "original_count": 11, "original_citation_ids": ["N1P49", "N0P98", "N3P76", "N2P118", "SEED_46", "N2P113", "N3P81", "N0P92", "N0P0", "SEED_21", "N1P20"]}
+{"paper_id": "N4P87", "node": 4, "original_count": 11, "original_citation_ids": ["N2P25", "N2P73", "N0P95", "SEED_53", "N1P25", "N0P1", "N1P42", "N1P58", "N0P72", "N3P107", "N2P109"]}
+{"paper_id": "N4P3", "node": 4, "original_count": 11, "original_citation_ids": ["N1P32", "N1P3", "N3P12", "N0P22", "N3P75", "N0P20", "SEED_105", "N3P39", "N0P87", "N0P119", "N2P88"]}
+{"paper_id": "N4P71", "node": 4, "original_count": 11, "original_citation_ids": ["N1P38", "N2P106", "N2P22", "N0P98", "N0P57", "N3P118", "N3P6", "N1P89", "N3P27", "N1P70", "N2P49"]}
+{"paper_id": "N4P110", "node": 4, "original_count": 11, "original_citation_ids": ["N2P12", "N2P34", "SEED_25", "SEED_47", "N2P0", "N0P27", "N3P114", "SEED_109", "SEED_115", "SEED_4", "N0P102"]}
+{"paper_id": "N4P33", "node": 4, "original_count": 12, "original_citation_ids": ["SEED_61", "SEED_93", "N2P22", "N1P28", "N3P68", "N0P107", "N0P51", "N2P117", "N0P110", "SEED_80", "N1P2", "SEED_98"]}
+{"paper_id": "N4P32", "node": 4, "original_count": 11, "original_citation_ids": ["N1P106", "N2P11", "N1P73", "N0P34", "N1P110", "N0P84", "N0P78", "N3P37", "N1P6", "N1P74", "N1P48"]}
+{"paper_id": "N4P99", "node": 4, "original_count": 11, "original_citation_ids": ["N0P71", "N0P47", "SEED_1", "N2P68", "N0P50", "N0P34", "N3P104", "SEED_62", "N1P90", "N1P33", "SEED_4"]}
+{"paper_id": "N4P109", "node": 4, "original_count": 13, "original_citation_ids": ["N0P59", "N0P71", "SEED_13", "N1P8", "N2P102", "N0P42", "N1P112", "N2P110", "N3P21", "N2P54", "N3P106", "SEED_33", "N1P56"]}
+{"paper_id": "N4P4", "node": 4, "original_count": 13, "original_citation_ids": ["N0P99", "N3P25", "N2P86", "N0P91", "N0P83", "N1P50", "SEED_47", "N0P96", "N3P9", "N1P44", "N1P60", "N3P107", "N2P108"]}
+{"paper_id": "N4P62", "node": 4, "original_count": 13, "original_citation_ids": ["N0P14", "N1P84", "SEED_89", "N3P25", "N2P20", "N0P93", "SEED_116", "N0P1", "N3P84", "N2P48", "SEED_27", "N0P97", "N3P109"]}
+{"paper_id": "N4P66", "node": 4, "original_count": 11, "original_citation_ids": ["N2P37", "N2P12", "N1P43", "N3P4", "N2P44", "N0P116", "N0P43", "N2P13", "N1P72", "N1P2", "N2P101"]}
+{"paper_id": "N4P34", "node": 4, "original_count": 13, "original_citation_ids": ["SEED_55", "SEED_28", "N1P41", "SEED_64", "N2P63", "N2P56", "SEED_30", "SEED_118", "N3P76", "N1P30", "SEED_101", "N1P4", "SEED_103"]}
+{"paper_id": "N4P69", "node": 4, "original_count": 11, "original_citation_ids": ["N1P10", "N2P2", "SEED_13", "SEED_58", "N1P67", "SEED_0", "N3P78", "N0P6", "N3P114", "N2P109", "N1P37"]}
+{"paper_id": "N4P41", "node": 4, "original_count": 11, "original_citation_ids": ["SEED_65", "N2P21", "N2P51", "SEED_1", "SEED_59", "N3P31", "N1P22", "SEED_23", "SEED_6", "N0P43", "N2P33"]}
+{"paper_id": "N4P17", "node": 4, "original_count": 11, "original_citation_ids": ["N3P75", "N1P39", "N0P16", "N3P92", "N1P8", "N3P3", "N2P50", "N1P112", "N3P91", "N3P21", "N2P81"]}
+{"paper_id": "N4P40", "node": 4, "original_count": 13, "original_citation_ids": ["N0P71", "N2P3", "SEED_118", "N0P103", "SEED_85", "SEED_15", "N0P77", "N3P74", "N1P53", "N3P69", "N0P80", "N1P78", "N1P111"]}
+{"paper_id": "N4P10", "node": 4, "original_count": 13, "original_citation_ids": ["SEED_32", "N1P106", "SEED_75", "N0P22", "N3P94", "N3P76", "N0P51", "SEED_49", "N1P7", "N0P102", "N0P95", "N1P114", "N0P29"]}
+{"paper_id": "N4P115", "node": 4, "original_count": 12, "original_citation_ids": ["SEED_71", "N1P103", "N1P28", "SEED_18", "N0P113", "N0P11", "N3P40", "SEED_62", "N1P58", "SEED_38", "N1P96", "N0P46"]}
+{"paper_id": "N4P8", "node": 4, "original_count": 11, "original_citation_ids": ["N3P80", "N0P51", "N2P111", "N2P113", "N1P89", "N0P92", "SEED_31", "N0P97", "SEED_21", "N2P70", "N2P107"]}
+{"paper_id": "N4P70", "node": 4, "original_count": 11, "original_citation_ids": ["N0P10", "N0P62", "N3P76", "N0P35", "N0P28", "N1P5", "SEED_109", "N1P51", "N2P7", "SEED_86", "N2P101"]}
+{"paper_id": "N4P44", "node": 4, "original_count": 11, "original_citation_ids": ["SEED_56", "N2P30", "N1P86", "N3P73", "N2P51", "N3P74", "N3P8", "N1P2", "SEED_109", "SEED_27", "N2P107"]}
+{"paper_id": "N4P15", "node": 4, "original_count": 11, "original_citation_ids": ["SEED_113", "N3P1", "N0P116", "N0P111", "N0P105", "N2P94", "N0P27", "SEED_80", "N0P48", "N3P71", "N3P83"]}
+{"paper_id": "N4P25", "node": 4, "original_count": 11, "original_citation_ids": ["N1P3", "SEED_8", "N1P31", "SEED_41", "N0P79", "N0P57", "N2P118", "N3P74", "N1P30", "N3P9", "N3P71"]}
+{"paper_id": "N4P114", "node": 4, "original_count": 12, "original_citation_ids": ["N3P64", "N1P1", "N0P40", "N3P13", "N2P50", "N1P42", "N3P90", "N1P62", "N0P72", "N2P65", "N0P1", "N1P78"]}
+{"paper_id": "N5P51", "node": 5, "original_count": 11, "original_citation_ids": ["N4P8", "N2P30", "N3P76", "N3P24", "SEED_18", "N0P113", "N3P92", "N4P28", "N0P96", "SEED_74", "N2P49"]}
+{"paper_id": "N5P11", "node": 5, "original_count": 11, "original_citation_ids": ["N4P103", "N3P64", "N1P86", "N3P110", "N1P57", "N1P75", "N2P118", "SEED_52", "N1P90", "N0P0", "N3P83"]}
+{"paper_id": "N5P113", "node": 5, "original_count": 12, "original_citation_ids": ["SEED_71", "N1P1", "N0P104", "N2P28", "SEED_82", "N0P94", "N1P42", "N4P113", "N0P72", "N0P63", "SEED_36", "SEED_115"]}
+{"paper_id": "N5P81", "node": 5, "original_count": 11, "original_citation_ids": ["SEED_65", "SEED_41", "N3P82", "SEED_47", "N4P37", "SEED_87", "N1P61", "N0P28", "N2P32", "SEED_19", "N0P82"]}
+{"paper_id": "N5P30", "node": 5, "original_count": 11, "original_citation_ids": ["N1P100", "N1P98", "N3P1", "N4P70", "SEED_68", "N2P43", "N4P58", "SEED_74", "N0P78", "SEED_114", "N3P40"]}
+{"paper_id": "N5P104", "node": 5, "original_count": 12, "original_citation_ids": ["N4P11", "N0P98", "N0P93", "SEED_49", "SEED_82", "SEED_57", "SEED_7", "SEED_20", "N4P77", "SEED_99", "SEED_36", "SEED_21"]}
+{"paper_id": "N5P19", "node": 5, "original_count": 12, "original_citation_ids": ["N1P14", "N0P21", "SEED_34", "N2P18", "N4P93", "N0P114", "N3P40", "N2P60", "N1P58", "N0P42", "N3P62", "N0P8"]}
+{"paper_id": "N5P58", "node": 5, "original_count": 11, "original_citation_ids": ["N2P93", "SEED_71", "N2P77", "N1P69", "N0P37", "N0P84", "N1P40", "N2P33", "SEED_19", "N0P82", "N2P3"]}
+{"paper_id": "N5P85", "node": 5, "original_count": 12, "original_citation_ids": ["N4P8", "N0P26", "N2P67", "SEED_59", "N3P39", "N1P35", "N4P26", "N0P31", "N4P6", "N1P75", "SEED_107", "N1P33"]}
+{"paper_id": "N5P60", "node": 5, "original_count": 13, "original_citation_ids": ["SEED_61", "N3P36", "SEED_18", "N3P73", "SEED_46", "N0P41", "N1P0", "N1P77", "N1P33", "N0P53", "N3P17", "N3P61", "N1P56"]}
+{"paper_id": "N5P55", "node": 5, "original_count": 11, "original_citation_ids": ["N1P106", "N3P82", "SEED_118", "N1P99", "SEED_42", "N3P13", "N4P40", "N0P119", "N4P76", "N0P97", "N0P117"]}
+{"paper_id": "N5P1", "node": 5, "original_count": 12, "original_citation_ids": ["N1P100", "N3P15", "SEED_95", "N4P42", "N4P53", "N2P76", "N4P6", "SEED_101", "N1P44", "N2P68", "N1P18", "N4P111"]}
+{"paper_id": "N5P49", "node": 5, "original_count": 13, "original_citation_ids": ["N0P30", "N1P108", "N3P96", "SEED_28", "N3P73", "N2P35", "N2P20", "N0P111", "N1P42", "SEED_109", "N1P88", "N1P110", "N4P96"]}
+{"paper_id": "N5P109", "node": 5, "original_count": 11, "original_citation_ids": ["N1P2", "N1P57", "N0P47", "SEED_118", "N0P2", "N2P11", "SEED_74", "N4P86", "N2P89", "N1P90", "N4P91"]}
+{"paper_id": "N5P8", "node": 5, "original_count": 11, "original_citation_ids": ["SEED_22", "N4P101", "N0P59", "N3P57", "N2P50", "N2P38", "N3P5", "N4P19", "N3P21", "N0P3", "SEED_24"]}
+{"paper_id": "N5P98", "node": 5, "original_count": 14, "original_citation_ids": ["N2P93", "N4P12", "N3P72", "SEED_85", "SEED_92", "N1P7", "N2P111", "SEED_53", "SEED_7", "SEED_110", "N3P108", "N2P15", "N2P114", "SEED_24"]}
+{"paper_id": "N5P61", "node": 5, "original_count": 11, "original_citation_ids": ["N2P39", "SEED_89", "N0P21", "N0P62", "N1P116", "N1P69", "SEED_95", "N0P11", "N3P46", "N1P107", "N0P1"]}
+{"paper_id": "N5P0", "node": 5, "original_count": 11, "original_citation_ids": ["N2P40", "N4P106", "N1P8", "N4P46", "N3P29", "N1P76", "N1P73", "SEED_44", "N3P27", "N1P44", "N2P26"]}
+{"paper_id": "N5P20", "node": 5, "original_count": 11, "original_citation_ids": ["N4P44", "N0P66", "N2P96", "SEED_25", "N1P52", "N0P5", "N2P82", "N0P116", "N3P99", "N1P58", "N0P0"]}
+{"paper_id": "N5P118", "node": 5, "original_count": 11, "original_citation_ids": ["N1P37", "SEED_83", "SEED_71", "N1P0", "N2P117", "N0P24", "N2P110", "SEED_6", "N3P21", "N4P77", "N2P49"]}
+{"paper_id": "N5P18", "node": 5, "original_count": 12, "original_citation_ids": ["N2P40", "N3P64", "N1P106", "N0P105", "SEED_5", "N3P27", "N4P32", "N1P54", "N1P6", "SEED_98", "N0P8", "N2P3"]}
+{"paper_id": "N5P86", "node": 5, "original_count": 11, "original_citation_ids": ["N4P101", "N1P98", "N3P76", "N3P97", "N0P116", "N3P102", "N1P53", "N0P9", "N0P95", "N1P5", "N2P52"]}
+{"paper_id": "N5P94", "node": 5, "original_count": 12, "original_citation_ids": ["N1P57", "N1P19", "N4P61", "N3P39", "SEED_81", "SEED_26", "N0P54", "SEED_62", "N2P88", "N0P72", "N1P110", "N1P74"]}
+{"paper_id": "N5P112", "node": 5, "original_count": 11, "original_citation_ids": ["SEED_41", "N0P79", "N4P114", "N2P73", "N0P5", "N0P113", "N4P109", "N1P33", "N3P62", "N1P96", "N1P111"]}
+{"paper_id": "N5P9", "node": 5, "original_count": 11, "original_citation_ids": ["N3P42", "N3P76", "N0P41", "N2P35", "N0P15", "SEED_98", "N2P68", "N0P54", "N4P33", "N4P9", "SEED_88"]}
+{"paper_id": "N5P66", "node": 5, "original_count": 12, "original_citation_ids": ["SEED_83", "N1P100", "N1P43", "N3P4", "SEED_17", "N0P79", "SEED_95", "N1P7", "N0P77", "SEED_80", "N4P71", "N2P71"]}
+{"paper_id": "N5P69", "node": 5, "original_count": 12, "original_citation_ids": ["N0P21", "N4P57", "N3P11", "N3P68", "N0P67", "SEED_68", "SEED_92", "N3P44", "N2P110", "N2P112", "N1P90", "N1P96"]}
+{"paper_id": "N5P22", "node": 5, "original_count": 11, "original_citation_ids": ["N0P68", "N0P107", "N2P42", "SEED_3", "N0P105", "N2P50", "N1P112", "N4P6", "N4P71", "N4P64", "N3P105"]}
+{"paper_id": "N5P34", "node": 5, "original_count": 11, "original_citation_ids": ["N1P3", "N0P65", "N3P82", "SEED_59", "N1P60", "N4P6", "SEED_80", "N2P81", "N3P23", "N3P55", "N3P105"]}
+{"paper_id": "N5P27", "node": 5, "original_count": 11, "original_citation_ids": ["N2P93", "N0P32", "N0P61", "N1P28", "N4P119", "SEED_20", "N4P112", "N1P71", "N0P119", "N2P4", "SEED_16"]}
+{"paper_id": "N5P114", "node": 5, "original_count": 11, "original_citation_ids": ["N3P11", "N0P20", "N3P35", "SEED_59", "N1P115", "N4P50", "N2P102", "N1P35", "N1P33", "N2P112", "N4P4"]}
+{"paper_id": "N5P28", "node": 5, "original_count": 11, "original_citation_ids": ["N0P44", "N4P73", "N0P96", "N4P113", "N4P82", "N0P119", "SEED_99", "N0P76", "SEED_36", "SEED_33", "N1P33"]}
+{"paper_id": "N5P16", "node": 5, "original_count": 11, "original_citation_ids": ["N0P59", "SEED_14", "SEED_113", "N3P66", "N1P99", "SEED_119", "N2P5", "N4P38", "N2P114", "SEED_108", "SEED_70"]}
+{"paper_id": "N5P99", "node": 5, "original_count": 11, "original_citation_ids": ["N3P16", "N2P2", "N1P119", "N3P66", "N0P40", "SEED_30", "N1P29", "N4P5", "N1P118", "N2P89", "N1P96"]}
+{"paper_id": "N5P64", "node": 5, "original_count": 12, "original_citation_ids": ["N0P79", "N4P80", "SEED_118", "SEED_96", "N0P18", "N4P63", "N3P41", "N4P100", "N0P34", "N0P87", "SEED_74", "N2P112"]}
+{"paper_id": "N5P25", "node": 5, "original_count": 11, "original_citation_ids": ["N0P86", "N1P36", "N2P118", "N0P105", "SEED_110", "SEED_115", "N0P49", "N2P89", "N1P2", "N2P76", "N2P70"]}
+{"paper_id": "N5P4", "node": 5, "original_count": 12, "original_citation_ids": ["N0P14", "N1P14", "N1P4", "N4P50", "SEED_33", "SEED_0", "N4P71", "N0P34", "N3P117", "N3P70", "N4P91", "N2P109"]}
+{"paper_id": "N5P75", "node": 5, "original_count": 12, "original_citation_ids": ["N4P47", "SEED_56", "N1P19", "SEED_30", "N3P107", "N0P110", "N2P13", "N3P55", "N4P35", "N2P10", "N1P33", "N4P3"]}
+{"paper_id": "N5P73", "node": 5, "original_count": 13, "original_citation_ids": ["N0P81", "N4P65", "N3P43", "SEED_59", "N1P91", "N3P54", "N3P30", "N1P95", "N3P111", "N4P94", "SEED_7", "N2P112", "SEED_99"]}
+{"paper_id": "N5P105", "node": 5, "original_count": 11, "original_citation_ids": ["N2P100", "N3P2", "SEED_37", "N2P73", "N4P65", "N0P40", "N0P7", "SEED_58", "N3P39", "N4P38", "N1P18"]}
+{"paper_id": "N5P33", "node": 5, "original_count": 11, "original_citation_ids": ["N1P39", "N3P4", "N1P115", "N0P40", "SEED_3", "SEED_12", "N1P65", "N4P113", "N2P53", "SEED_98", "N0P117"]}
+{"paper_id": "N5P67", "node": 5, "original_count": 13, "original_citation_ids": ["N2P27", "N2P29", "N0P101", "N0P69", "N2P50", "N4P115", "N3P98", "N1P61", "N2P15", "N4P77", "N0P95", "N0P42", "N3P65"]}
+{"paper_id": "N5P71", "node": 5, "original_count": 12, "original_citation_ids": ["N0P22", "N0P10", "SEED_47", "N0P7", "N1P109", "N0P116", "N0P39", "N4P49", "N1P95", "N1P90", "N0P72", "N1P78"]}

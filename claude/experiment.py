@@ -405,7 +405,7 @@ async def generate_node(node: int):
 def create_seed() -> List[Dict]:
 
     papers = []
-    with open("output/seed/seed.jsonl", "r") as f:
+    with open("gpt/output/seed/seed.jsonl", "r") as f:
         for paper in f:
             papers.append(json.loads(paper))
 

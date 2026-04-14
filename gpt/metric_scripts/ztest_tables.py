@@ -6,7 +6,7 @@ import numpy as np
 from scipy import stats
 
 BASE = "."
-OUTPUT_ROOT = f"{BASE}/output"
+OUTPUT_ROOT = f"{BASE}/gpt/output"
 ALPHA = 0.05
 M = 12
 ALPHA_BONF = ALPHA / M

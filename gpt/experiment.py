@@ -60,7 +60,7 @@ def create_set():
 
 def generate_prompts(node: int):
 
-    with open(f"prompts/N_{node}_inputs.jsonl", "w") as f:
+    with open(f"gpt/prompts/N_{node}_inputs.jsonl", "w") as f:
 
         pos_indicies = set(random.sample(range(NODE_SIZE-1), STRATUM_SIZE))
 
@@ -205,7 +205,7 @@ async def generate_node(node: int):
     over_cap_violations = []
     token_records = []
 
-    with open(f"prompts/N_{node}_inputs.jsonl", "r") as f:
+    with open(f"gpt/prompts/N_{node}_inputs.jsonl", "r") as f:
         for raw_line in f:
             line = json.loads(raw_line)
             paper_data = {
@@ -222,7 +222,7 @@ async def generate_node(node: int):
                 generate_paper(prompt=prompt, paper_id=paper_id, paper_data=paper_data)
             )
 
-    with open(f"output/node_{node}/node_{node}.jsonl", "w") as f:
+    with open(f"gpt/output/node_{node}/node_{node}.jsonl", "w") as f:
         for task in asyncio.as_completed(wrapped_tasks):
             paper_id, paper_data, json_response, usage = await task
 
@@ -317,24 +317,24 @@ async def generate_node(node: int):
     print(30*"=")
     print("\n")
 
-    with open(f"output/node_{node}/node_{node}_stats.jsonl", "w") as f:
+    with open(f"gpt/output/node_{node}/node_{node}_stats.jsonl", "w") as f:
         for k, v in node_citations.items():
             f.write(json.dumps({k:v}) + "\n")
             print(f"{k}: {v}")
         
         f.flush()
     
-    with open(f"output/citation_counts/hallucinations.jsonl", "a") as f:
+    with open(f"gpt/output/citation_counts/hallucinations.jsonl", "a") as f:
         for item in hallucinations:
             f.write(json.dumps(item) + "\n")
         f.flush()
 
-    with open(f"output/citation_counts/over_cap_violations.jsonl", "a") as f:
+    with open(f"gpt/output/citation_counts/over_cap_violations.jsonl", "a") as f:
         for item in over_cap_violations:
             f.write(json.dumps(item) + "\n")
         f.flush()
 
-    with open(f"output/node_{node}/node_{node}_token_usage.jsonl", "w") as f:
+    with open(f"gpt/output/node_{node}/node_{node}_token_usage.jsonl", "w") as f:
         for record in token_records:
             f.write(json.dumps(record) + "\n")
         f.flush()
@@ -356,7 +356,7 @@ async def generate_node(node: int):
         "total_tokens": node_total
     }
 
-    with open(f"output/node_{node}/node_{node}_token_totals.jsonl", "w") as f:
+    with open(f"gpt/output/node_{node}/node_{node}_token_totals.jsonl", "w") as f:
         f.write(json.dumps(node_token_totals) + "\n")
         f.flush()
 
@@ -437,11 +437,11 @@ def standardize_seed() -> List[Dict]:
         POSSIBLE_PAPER_IDS.add(paper_id)
         SEEN_AUTHOR_YEAR_PAIRS[(fake_surname, fake_year)] = paper_id
     
-    with open("output/seed/seed_initial.jsonl", "w") as f:
+    with open("gpt/output/seed/seed_initial.jsonl", "w") as f:
         for item in arxiv_citation_count:
             f.write(json.dumps(item) + "\n")
 
-    with open("output/seed/seed.jsonl", "w") as f:
+    with open("gpt/output/seed/seed.jsonl", "w") as f:
         for item in arxiv_list:
             f.write(json.dumps(item) + "\n")   
 
@@ -456,19 +456,19 @@ async def run_experiment():
     random.seed(SEED)
 
     #Make output directories 
-    os.makedirs("output/seed", exist_ok=True)
-    os.makedirs("output/master", exist_ok=True)
-    os.makedirs("output/citation_counts", exist_ok=True)
-    os.makedirs("prompts", exist_ok=True)
-    open("output/citation_counts/hallucinations.jsonl", "w").close()
-    open("output/citation_counts/over_cap_violations.jsonl", "w").close()
+    os.makedirs("gpt/output/seed", exist_ok=True)
+    os.makedirs("gpt/output/master", exist_ok=True)
+    os.makedirs("gpt/output/citation_counts", exist_ok=True)
+    os.makedirs("gpt/prompts", exist_ok=True)
+    open("gpt/output/citation_counts/hallucinations.jsonl", "w").close()
+    open("gpt/output/citation_counts/over_cap_violations.jsonl", "w").close()
 
     #standardizes arXiv papers and adds them to the pool
     #Additionally, saves the initial citation counts + add another running citation count to citation_counts
     POOLED_PAPERS.extend(standardize_seed())
 
     for i in range(TOTAL_NODES):
-        os.makedirs(f"output/node_{i}", exist_ok=True)
+        os.makedirs(f"gpt/output/node_{i}", exist_ok=True)
     
     all_node_token_totals = []
 
@@ -476,16 +476,16 @@ async def run_experiment():
         node_token_totals = await generate_node(i)
         all_node_token_totals.append(node_token_totals)
 
-    with open("output/citation_counts/citation_counts.jsonl", "w") as f:
+    with open("gpt/output/citation_counts/citation_counts.jsonl", "w") as f:
         for k, v in CITATION_COUNTS.items():
             f.write(json.dumps({k: v}) + "\n")
     
-    with open("output/master/kv_pairs.jsonl", "w") as f:
+    with open("gpt/output/master/kv_pairs.jsonl", "w") as f:
         for (author, year), paper_id in SEEN_AUTHOR_YEAR_PAIRS.items():
             record = {"author": author, "year": year, "id": paper_id}
             f.write(json.dumps(record) + "\n")
 
-    with open("output/master/token_usage.jsonl", "w") as f:
+    with open("gpt/output/master/token_usage.jsonl", "w") as f:
         for totals in all_node_token_totals:
             f.write(json.dumps(totals) + "\n")
 

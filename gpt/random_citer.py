@@ -4,7 +4,7 @@ import random
 from collections import defaultdict
 
 BASE = "."
-OUT = f"{BASE}/random_output"
+OUT = f"{BASE}/gpt/random_output"
 MAX_NODES = 12
 ITERATIONS = 50
 
@@ -17,7 +17,7 @@ def main(i: int):
     for node in range(MAX_NODES):
         os.makedirs(f"{OUT}/run_{i}/node_{node}", exist_ok=True)
 
-        exp_path = f"{BASE}/output/node_{node}/node_{node}.jsonl"
+        exp_path = f"{BASE}/gpt/output/node_{node}/node_{node}.jsonl"
         with open(exp_path) as f:
             papers = [json.loads(line) for line in f]
 
@@ -54,7 +54,7 @@ def main(i: int):
 
         print(f"Node {node}: wrote {node_path}, {stats_path}")
 
-    with open(f"{BASE}/output/master/kv_pairs.jsonl") as src:
+    with open(f"{BASE}/gpt/output/master/kv_pairs.jsonl") as src:
         with open(f"{OUT}/run_{i}/master/kv_pairs.jsonl", "w") as dst:
             dst.write(src.read())
 

@@ -6,8 +6,8 @@ from random_aggregate import list_random_run_dirs
 
 BASE = "."
 MAX_NODES = 12
-OUTPUT_ROOT = f"{BASE}/output"
-RANDOM_ROOT = f"{BASE}/random_output"
+OUTPUT_ROOT = f"{BASE}/gpt/output"
+RANDOM_ROOT = f"{BASE}/gpt/random_output"
 
 
 def load_exposure(node: int, data_root: str) -> list[dict]:

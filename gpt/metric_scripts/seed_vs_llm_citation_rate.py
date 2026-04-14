@@ -11,7 +11,7 @@ if _SCRIPT_DIR not in sys.path:
 
 BASE = "."
 MAX_NODES = 12
-OUTPUT_ROOT = f"{BASE}/output"
+OUTPUT_ROOT = f"{BASE}/gpt/output"
 
 
 def _label_offsets(val, other_val, prev_val, next_val, y_lo, y_hi):

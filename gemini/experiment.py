@@ -14,7 +14,7 @@ from collections import defaultdict
 from faker import Faker
 from citation_parser import extract_citations_from_body
 from pydantic import BaseModel, Field
-from tenacity import retry, wait_exponential, stop_after_attempt, retry_if_exception_type
+from tenacity import retry, wait_exponential, retry_if_exception_type
 from google.genai.errors import APIError
 
 load_dotenv()
@@ -25,12 +25,12 @@ CITATION_CAP = 10
 POOLED_PAPERS = []
 TOTAL_NODES = 12 
 MODEL = "gemini-2.5-pro"
-MAX_CONCURRENT = 1
+MAX_CONCURRENT = 20
 TARGET_LENGTH = 500
 SEED = 42
 PAPER_SET_LENGTH = 30
 TOPIC = "Knowledge distillation or model compression in deep learning or NLP"
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+client = genai.Client(api_key="AIzaSyB5lcapMPI_j_h-t76FqJ3VPdUWZAp8Nv8")
 CITATION_COUNTS = defaultdict(int)
 POSSIBLE_PAPER_IDS = set()
 SEEN_AUTHOR_YEAR_PAIRS = {}
@@ -139,10 +139,8 @@ def generate_prompts(node: int):
 
 
 @retry(
-    wait=wait_exponential(multiplier=1, min=2, max=60),
-    stop=stop_after_attempt(10),
+    wait=wait_exponential(multiplier=1, min=2, max=120),
     retry=retry_if_exception_type(APIError),
-    reraise=True
 )
 async def generate_paper(prompt: str, paper_id: str, paper_data: dict, semaphore = asyncio.Semaphore(MAX_CONCURRENT)):
 
@@ -150,7 +148,7 @@ async def generate_paper(prompt: str, paper_id: str, paper_data: dict, semaphore
         response_mime_type='application/json',
         response_schema=PaperResponse,
         system_instruction=SYSTEM_PROMPT,
-        max_output_tokens=5000
+        max_output_tokens=10000
     )
     
     async with semaphore:
@@ -184,7 +182,7 @@ async def generate_paper(prompt: str, paper_id: str, paper_data: dict, semaphore
                     response_mime_type='application/json',
                     response_schema=PaperResponse,
                     system_instruction=SYSTEM_PROMPT,
-                    max_output_tokens=10000
+                    max_output_tokens=20000
                 )
 
                 response = await client.aio.models.generate_content(
@@ -212,8 +210,8 @@ async def generate_paper(prompt: str, paper_id: str, paper_data: dict, semaphore
             
             return paper_id, paper_data, content, usage
 
-        except APIError:
-            print(f"API Error for {paper_id}, tenacity will retry...")
+        except APIError as e:
+            print(f"API Error for {paper_id}, will retry...\n  {e}")
             raise
 
 async def generate_node(node: int):
@@ -408,7 +406,7 @@ async def generate_node(node: int):
 def create_seed() -> List[Dict]:
 
     papers = []
-    with open("output/seed/seed.jsonl", "r") as f:
+    with open("gpt/output/seed/seed.jsonl", "r") as f:
         for paper in f:
             papers.append(json.loads(paper))
 

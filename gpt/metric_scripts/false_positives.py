@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 BASE = "."
 MAX_NODES = 12
 CITATION_CAP = 10
-OUTPUT_ROOT = f"{BASE}/output"
+OUTPUT_ROOT = f"{BASE}/gpt/output"
 
 
 def load_node_fp_counts(node: int, data_root: str) -> dict:
