@@ -24,13 +24,13 @@ STRATUM_SIZE = 60
 CITATION_CAP = 10
 POOLED_PAPERS = []
 TOTAL_NODES = 12 
-MODEL = "gemini-2.5-pro"
-MAX_CONCURRENT = 20
+MODEL = "gemini-2.5-flash"
+MAX_CONCURRENT = 5
 TARGET_LENGTH = 500
 SEED = 42
 PAPER_SET_LENGTH = 30
 TOPIC = "Knowledge distillation or model compression in deep learning or NLP"
-client = genai.Client(api_key="AIzaSyB5lcapMPI_j_h-t76FqJ3VPdUWZAp8Nv8")
+client = genai.Client()
 CITATION_COUNTS = defaultdict(int)
 POSSIBLE_PAPER_IDS = set()
 SEEN_AUTHOR_YEAR_PAIRS = {}
