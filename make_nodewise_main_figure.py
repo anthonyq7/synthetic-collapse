@@ -1,7 +1,7 @@
 # make_nodewise_main_figure.py
 # Run (from repo root):
 #   pip install matplotlib numpy
-#   python make_nodewise_main_figure.py --out artifacts/nodewise_main.png
+#   python make_nodewise_main_figure.py --out figures/nodewise_main.png
 #
 # Inputs (expected paths):
 #   Top-share:
@@ -9,7 +9,7 @@
 #     gpt/output/master/concentration_random_baseline.jsonl
 #     claude/output/master/concentration.jsonl
 #     claude/output/master/concentration_random_baseline.jsonl
-#   False negatives:
+#   Exclusion Rates:
 #     gpt/output/analysis_figures/exclusion_rate_by_node.jsonl
 #     gpt/output/master/false_negatives_random_baseline.jsonl
 #     claude/output/analysis_figures/exclusion_rate_by_node.jsonl
@@ -23,7 +23,7 @@
 # make_nodewise_main_figure.py
 
 # Run:
-#   python make_nodewise_main_figure.py --out artifacts/nodewise_main.png
+#   python make_nodewise_main_figure.py --out figures/nodewise_main.png
 
 from __future__ import annotations
 
@@ -34,6 +34,8 @@ from typing import Dict, List
 
 import numpy as np
 import matplotlib.pyplot as plt
+
+import matplotlib.ticker as mticker
 
 MAX_NODES_DEFAULT = 12
 
@@ -72,7 +74,7 @@ def ensure_paths_exist(paths: List[str]):
         raise FileNotFoundError("Missing required file(s):\n  " + "\n  ".join(missing))
 
 
-def plot_baseline_with_ci(ax, x, mean, lo, hi, *, label, color, alpha=0.12):
+def plot_baseline_with_ci(ax, x, mean, lo, hi, *, label, color, alpha=0.32):
     # dashed baseline mean in same color; shaded CI in same color
     ax.plot(x, mean, color=color, linestyle="--", linewidth=2, label=label)
     ax.fill_between(x, lo, hi, color=color, alpha=alpha, linewidth=0)
@@ -88,7 +90,7 @@ def style_ax(ax, title, ylabel):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default="artifacts/nodewise_main.png")
+    ap.add_argument("--out", default="figures/nodewise_main.png")
     ap.add_argument("--max-nodes", type=int, default=MAX_NODES_DEFAULT)
     args = ap.parse_args()
 
@@ -148,7 +150,7 @@ def main():
     claude_top_r_lo = [float_or_nan(claude_conc_r[n]["top_10pct_share_ci_low"]) for n in nodes]
     claude_top_r_hi = [float_or_nan(claude_conc_r[n]["top_10pct_share_ci_high"]) for n in nodes]
 
-    # ---------- Panel (b): False negatives ----------
+    # ---------- Panel (b): Exclusion Rates ----------
     gpt_fn = {r["node"]: r for r in load_jsonl(GPT_FN)}
     gpt_fn_r = {r["node"]: r for r in load_jsonl(GPT_FN_RND)}
     claude_fn = {r["node"]: r for r in load_jsonl(CLAUDE_FN)}
@@ -202,67 +204,71 @@ def main():
     ax.plot(x, claude_top, color=CLAUDE_COLOR, marker="o", linewidth=2, label="Claude Haiku 4.5")
     plot_baseline_with_ci(
         ax, x, gpt_top_r_mean, gpt_top_r_lo, gpt_top_r_hi,
-        label="GPT matched-random baseline (mean ± CI)", color=GPT_COLOR, alpha=0.10
+        label="GPT matched-random baseline (mean ± CI)", color=GPT_COLOR, alpha=0.30
     )
     plot_baseline_with_ci(
         ax, x, claude_top_r_mean, claude_top_r_lo, claude_top_r_hi,
-        label="Claude matched-random baseline (mean ± CI)", color=CLAUDE_COLOR, alpha=0.10
+        label="Claude matched-random baseline (mean ± CI)", color=CLAUDE_COLOR, alpha=0.30
     )
     style_ax(ax, "(a) Top-10% citation share by node", "Top 10% share (%)")
     ax.set_xticks(x)
     ax.set_xticklabels(nodes)
     ax.legend(fontsize=8, loc="upper left")
 
-    # (b) False negatives
+    # (b) Exclusion Rates
     ax = axs[0, 1]
     ax.plot(x, gpt_fn_y, color=GPT_COLOR, marker="o", linewidth=2, label="GPT-5 mini")
     ax.plot(x, claude_fn_y, color=CLAUDE_COLOR, marker="o", linewidth=2, label="Claude Haiku 4.5")
     plot_baseline_with_ci(
         ax, x, gpt_fn_r_mean, gpt_fn_r_lo, gpt_fn_r_hi,
-        label="GPT matched-random baseline (mean ± CI)", color=GPT_COLOR, alpha=0.10
+        label="GPT matched-random baseline (mean ± CI)", color=GPT_COLOR, alpha=0.30
     )
     plot_baseline_with_ci(
         ax, x, claude_fn_r_mean, claude_fn_r_lo, claude_fn_r_hi,
-        label="Claude matched-random baseline (mean ± CI)", color=CLAUDE_COLOR, alpha=0.10
+        label="Claude matched-random baseline (mean ± CI)", color=CLAUDE_COLOR, alpha=0.30
     )
-    style_ax(ax, "(b) False negatives by node", "Shown-but-uncited / shown (rate)")
+    style_ax(ax, "(b) Exclusion Rates by node", "Shown-but-uncited / shown (rate)")
     ax.set_xticks(x)
     ax.set_xticklabels(nodes)
     ax.legend(fontsize=8, loc="upper left")
 
     # (c) HHI
     ax = axs[1, 0]
+    ax.set_yscale("log")
+    ax.yaxis.set_minor_locator(mticker.LogLocator(subs='auto'))
     ax.plot(x, gpt_hhi, color=GPT_COLOR, marker="o", linewidth=2, label="GPT-5 mini (HHI)")
     ax.plot(x, claude_hhi, color=CLAUDE_COLOR, marker="o", linewidth=2, label="Claude Haiku 4.5 (HHI)")
     plot_baseline_with_ci(
         ax, x, gpt_hhi_r_mean, gpt_hhi_r_lo, gpt_hhi_r_hi,
-        label="GPT matched-random baseline (mean ± CI)", color=GPT_COLOR, alpha=0.10
+        label="GPT matched-random baseline (mean ± CI)", color=GPT_COLOR, alpha=0.60
     )
     plot_baseline_with_ci(
         ax, x, claude_hhi_r_mean, claude_hhi_r_lo, claude_hhi_r_hi,
-        label="Claude matched-random baseline (mean ± CI)", color=CLAUDE_COLOR, alpha=0.10
+        label="Claude matched-random baseline (mean ± CI)", color=CLAUDE_COLOR, alpha=0.60
     )
     style_ax(ax, "(c) HHI by node (theorem-facing)", "HHI")
     ax.set_xticks(x)
     ax.set_xticklabels(nodes)
-    ax.legend(fontsize=8, loc="upper left")
+    ax.legend(fontsize=8, loc="upper right")
 
     # (d) Overlap (raw count)
     ax = axs[1, 1]
+    ax.set_yscale("log")
+    ax.yaxis.set_minor_locator(mticker.LogLocator(subs='auto'))
     ax.plot(x, gpt_ov, color=GPT_COLOR, marker="o", linewidth=2, label="GPT-5 mini (mean |C∩C'|)")
     ax.plot(x, claude_ov, color=CLAUDE_COLOR, marker="o", linewidth=2, label="Claude Haiku 4.5 (mean |C∩C'|)")
     plot_baseline_with_ci(
         ax, x, gpt_ov_r_mean, gpt_ov_r_lo, gpt_ov_r_hi,
-        label="GPT matched-random baseline (mean ± CI)", color=GPT_COLOR, alpha=0.10
+        label="GPT matched-random baseline (mean ± CI)", color=GPT_COLOR, alpha=0.60
     )
     plot_baseline_with_ci(
         ax, x, claude_ov_r_mean, claude_ov_r_lo, claude_ov_r_hi,
-        label="Claude matched-random baseline (mean ± CI)", color=CLAUDE_COLOR, alpha=0.10
+        label="Claude matched-random baseline (mean ± CI)", color=CLAUDE_COLOR, alpha=0.60
     )
     style_ax(ax, "(d) Bibliography overlap by node (theorem-facing)", "Mean pair overlap |C∩C'|")
     ax.set_xticks(x)
     ax.set_xticklabels(nodes)
-    ax.legend(fontsize=8, loc="upper left")
+    ax.legend(fontsize=8, loc="upper right")
 
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
     fig.savefig(args.out, dpi=220, bbox_inches="tight")

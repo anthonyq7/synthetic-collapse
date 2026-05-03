@@ -263,7 +263,7 @@ def main():
         ax.annotate(f"{vr * 100:.1f}%", (x[i], vr), textcoords="offset points",
                     xytext=rnd_off, ha="center", fontsize=8, color="#3498DB")
     fig.suptitle(
-        "Claude Haiku 4.5 False Negativess",
+        "Claude Haiku 4.5 False Negatives",
         fontsize=12,
     )
     fig.tight_layout()

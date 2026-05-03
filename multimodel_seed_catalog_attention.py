@@ -167,9 +167,9 @@ def plot():
     series = {m: load_series(repo_root, m) for m in MODELS}
 
     fig, axes = plt.subplots(
-        nrows=len(MODELS),
+        nrows=1,
         ncols=2,
-        figsize=(12, 7),
+        figsize=(10, 4),
         sharex=True,
         sharey="col",
     )
@@ -182,40 +182,30 @@ def plot():
         s = series[model]
         x = s.nodes
 
-        # Catalog share
-        ax = axes[i][0]
-        ax.plot(x, [v * 100 for v in s.seed_catalog_share], marker="o", label="Seed")
-        ax.plot(x, [v * 100 for v in s.gen_catalog_share], marker="s", linestyle="--", label="Generated")
-        ax.set_ylim(0, 100)
-        ax.set_ylabel(f"{model.upper()}\nShare (%)")
-        if i == 0:
-            ax.set_title("Catalog share of available papers")
-        ax.grid(alpha=0.25)
-        if i == 0:
-            ax.legend(fontsize=8, loc="upper right")
+        ax = axes[i]
 
-        # Attention share
-        
-        ax = axes[i][1]
-        ax.plot(x, [v * 100 for v in s.seed_attention_share], marker="o", label="Seed")
-        ax.plot(x, [v * 100 for v in s.gen_attention_share], marker="s", linestyle="--", label="Generated")
-        # Expected attention under proportional-to-catalog null
+        ax.plot(x, [v * 100 for v in s.seed_attention_share], marker="o", label="Seed", color = "#6e07b3")
+        # ax.plot(x, [v * 100 for v in s.gen_attention_share], marker="s", linestyle="--", label="Generated")
+
+        # Expected baseline
         ax.plot(
             x,
             [v * 100 for v in s.seed_catalog_share],
             color="gray",
             linewidth=2,
             linestyle=":",
-            label="Expected (∝ catalog)",
+            label="Expected Seed (∝ catalog)",
         )
+
         ax.set_ylim(0, 100)
-        if i == 0:
-            ax.set_title("Attention share of citations")
+        ax.set_title(model.upper())
         ax.grid(alpha=0.25)
+
         if i == 0:
+            ax.set_ylabel("Share (%)")
             ax.legend(fontsize=8, loc="upper right")
 
-    for ax in axes[-1]:
+    for ax in axes:
         ax.set_xlabel("Node (generation)")
         ax.set_xticks(series[MODELS[0]].nodes)
 

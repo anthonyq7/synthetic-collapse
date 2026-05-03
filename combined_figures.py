@@ -69,7 +69,7 @@ def plot_concentration():
         ax.set_title(label, fontsize=11)
         ax.legend(loc="upper left", fontsize=9, frameon=True)
 
-    fig.savefig("combined_concentration.png", dpi=300, bbox_inches="tight")
+    fig.savefig("./figures/combined_concentration.png", dpi=300, bbox_inches="tight")
     print("Saved combined_concentration.png")
     plt.close(fig)
 
@@ -116,7 +116,7 @@ def plot_citation_rate():
         ax.set_title(label, fontsize=11)
         ax.legend(loc="best", fontsize=9, frameon=True)
 
-    fig.savefig("combined_citation_rate.png", dpi=300, bbox_inches="tight")
+    fig.savefig("./figures/combined_citation_rate.png", dpi=300, bbox_inches="tight")
     print("Saved combined_citation_rate.png")
     plt.close(fig)
 
