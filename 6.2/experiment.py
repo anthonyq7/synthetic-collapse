@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import statsmodels.formula.api as smf
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 plt.rcParams.update({
     "font.family": "serif",
@@ -19,8 +21,8 @@ plt.rcParams.update({
     "pdf.fonttype": 42,
     "ps.fonttype": 42,
 })
-from sentence_transformers import SentenceTransformer
-from sentence_transformers.util import cos_sim
+#from sentence_transformers import SentenceTransformer
+#from sentence_transformers.util import cos_sim
 
 SCRIPT_PATH = Path(__file__).resolve()
 REPO_ROOT = SCRIPT_PATH.parent.parent
@@ -28,7 +30,7 @@ SEED_PATH = REPO_ROOT / "gpt" / "output" / "seed" / "seed.jsonl"
 NODE_ROOT = REPO_ROOT / "gpt" / "output"
 OUTPUT_DIR = SCRIPT_PATH.parent
 TOPIC_TEXT = "Knowledge distillation or model compression in deep learning or NLP"
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+#EMBEDDING_MODEL = "sentence-transformers/multi-qa-MiniLM-L6-cos-v1"
 NODE_RANGE = range(0, 12)
 
 
@@ -44,8 +46,7 @@ def load_jsonl(path):
     return records
 
 
-def compute_seed_relevance(seed_records, topic_text, model_name=EMBEDDING_MODEL):
-    model = SentenceTransformer(model_name)
+def compute_seed_relevance(seed_records, topic_text):
 
     seed_ids = []
     abstracts = []
@@ -53,20 +54,18 @@ def compute_seed_relevance(seed_records, topic_text, model_name=EMBEDDING_MODEL)
         seed_ids.append(record["id"])
         abstracts.append(record["abstract"])
 
-    topic_embedding = model.encode(topic_text, convert_to_tensor=True, normalize_embeddings=True)
-    abstract_embeddings = model.encode(
-        abstracts,
-        convert_to_tensor=True,
-        normalize_embeddings=True,
-        show_progress_bar=False,
-    )
+    vectorizer = TfidfVectorizer()
+    vectorizer.fit(abstracts + [topic_text])
 
-    similarity_matrix = cos_sim(topic_embedding, abstract_embeddings)
-    similarity_row = similarity_matrix[0].cpu().numpy()
+    topic_vec = vectorizer.transform([topic_text])
+    abstract_vecs = vectorizer.transform(abstracts)
+
+    relevance_scores = cosine_similarity(topic_vec, abstract_vecs).flatten()
 
     relevance_by_seed = {}
     for index in range(len(seed_ids)):
-        relevance_by_seed[seed_ids[index]] = float(similarity_row[index])
+        relevance_by_seed[seed_ids[index]] = float(relevance_scores[index])
+        
     return relevance_by_seed
 
 
@@ -251,6 +250,14 @@ def plot_marginal_effect(result, dataframe, out_path):
         major_xticks.append(x_max)
     axis.set_xticks(major_xticks)
     axis.set_xticks(competitor_counts, minor=True)
+
+    marginal_df = pd.DataFrame({
+        "n_other_seeds": competitor_counts,
+        "predicted_mean": predicted_mean,
+        "ci_lower": ci_lower,
+        "ci_upper": ci_upper,
+    })
+    marginal_df.to_csv(out_path.with_suffix(".csv"), index=False)
 
     figure.tight_layout()
     figure.savefig(out_path, dpi=300)
